@@ -1,0 +1,50 @@
+site_name: SAR Doc
+site_url: https://anac-gpl.gitlab.io/sardoc
+site_author: ANAC
+site_description: Site estático da Superintendência de Aeronavegabilidade (SAR), Agência Nacional de Aviação Civil (ANAC), construído a partir de um conjunto de arquivos em Markdown para hospedar a documentação de interesse da superintendência. Conteúdo personalizável, pesquisável e compatível com dispositivos móveis (responsivo).
+
+theme:
+  name: material
+  language: 'pt'
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    scheme: dracula
+    primary: 'dark blue'
+    accent: 'dark blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true  
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+
+extra:
+  disqus: sardoc
