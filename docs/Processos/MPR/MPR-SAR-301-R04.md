@@ -11,7 +11,7 @@
 | **Revisão** | **Aprovação** | **Aprovado Por** | **Modificações da Última Versão** |
 | --- | --- | --- | --- |
 | R00 | 28/06/2017 | SAR | Versão Original |
-| R01 | 28/08/2019 | SAR | |
+| R01 | 28/08/2019 | SAR | Sem descrição |
 | R02 | 11/08/2020 | SAR | 1) Processo &#39;Avaliar Pedido de Isenção de Requisito na SAR&#39; modificado.|
 | R03 | 24/03/2021 | SAR | 1) Processo &#39;Elaborar ou Alterar IS na SAR&#39; modificado. |
 | R04 | 17/06/2021 | SAR | 1) Processo &#39;Elaborar ou Revisar Regulamento na SAR&#39; modificado. 2) Processo &#39;Realizar Análise Preliminar de Ato Normativo na SAR&#39; modificado. |
