@@ -161,6 +161,8 @@ Barra de progresso
 [=85% "85%"]
 [=100% "100%"]
 
+[== 80%]
+
 !!! example "Progress Bar Example"
 
 === "Output"
