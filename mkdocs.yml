@@ -73,7 +73,7 @@ markdown_extensions:
       social_url_shortener: true
       repo_url_shorthand: true
       social_url_shorthand: true
-      provider: 'gitlab'
+      provider: 'github'
   - pymdownx.mark
   - pymdownx.progressbar
 #  - pymdownx.smartsymbols
