@@ -99,3 +99,4 @@ plugins:
 
 extra:
   disqus: sardoc
+  manifest : manifest.webmanifest
