@@ -5,12 +5,7 @@ url:
 dcterms:
 disqus: sardoc
 ---
-<script type = "application / json" class = "js-hipotese-config">
-{
-"showHighlights": false
-}
-</script>
-<script async src = "https://hypothes.is/embed.js"> </script>
+<script type = "application / json" class = "js-hipotese-config">{"showHighlights": false}</script><script async src = "https://hypothes.is/embed.js"></script>
 
 # MPR-910
 
