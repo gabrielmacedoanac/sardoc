@@ -1,7 +1,6 @@
 {
   "short_name": "Sardoc",
   "name": "Documentação da SAR/ANAC",
-  "icons": [    {    },    {    }  ],
   "start_url": "/",
   "background_color": "#3367D6",
   "display": "standalone",
