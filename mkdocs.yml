@@ -4,59 +4,96 @@ site_author: ANAC
 site_description: Site estático da Superintendência de Aeronavegabilidade (SAR), Agência Nacional de Aviação Civil (ANAC), construído a partir de um conjunto de arquivos em Markdown para hospedar a documentação de interesse da superintendência. Conteúdo personalizável, pesquisável e compatível com dispositivos móveis (responsivo).
 
 # Repository
-repo_name: gabrielmacedoanac/sardoc
+repo_name: sardoc
 repo_url: https://github.com/gabrielmacedoanac/sardoc
-edit_uri: ""
 
 theme:
   name: material
+  shortcuts:
+      help: 191    # ?
+#      next: 78     # n
+#      previous: 80 # p
+      previous: 37 # ArrowLeft
+      next: 39 # ArrowRight
+      # https://keycode.info/
+      # https://www.mkdocs.org/user-guide/styling-your-docs/
+      search: 83   # s  
+  highlightjs: true
+  hljs_languages:
+    - yaml
+  sticky_navigation: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo        
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light blue      
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
   language: 'pt'
   icon:
     logo: material/book-open-page-variant
-  palette:
-    scheme: dracula
-    primary: 'dark blue'
-    accent: 'dark blue'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   features:
     - navigation.tabs
+    - navigation.expand
+    - navigation.top
+#    - navigation.sections
 
 markdown_extensions:
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
   - footnotes
   - meta
+  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg  
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true  
   - pymdownx.magiclink:
+      repo_url_shortener: true
+      social_url_shortener: true
       repo_url_shorthand: true
-      user: gabrielmacedoanac
-      repo: sardoc
+      social_url_shorthand: true
+      provider: 'gitlab'
   - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.progressbar
+#  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
-          class: mermaid-experimental
-          format: !!python/name:pymdownx.superfences.fence_code_format  
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - pymdownx.escapeall:
-      hardbreak: true
-      nbsp: true  
   - toc:
-      permalink: true
+      permalink: '#'
 
 plugins:
   - search:
       separator: '[\s\-\.]+'
+      min_search_length: 2
+  - macros
 
 extra:
   disqus: sardoc
