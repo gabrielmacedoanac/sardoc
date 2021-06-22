@@ -1,0 +1,10 @@
+{
+    "name": "Sardoc",
+    "short_name": "Documentação SAR",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Repositório de documentação oficial da SAR.",
+    "lang": "pt-BR",
+    "theme_color": "indigo"
+}
