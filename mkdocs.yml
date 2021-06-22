@@ -6,7 +6,6 @@ site_description: Site estático da Superintendência de Aeronavegabilidade (SAR
 # Repository
 repo_name: gabrielmacedoanac/sardoc
 repo_url: https://github.com/gabrielmacedoanac/sardoc
-edit_uri: ""
 
 theme:
   name: material
