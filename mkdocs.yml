@@ -33,7 +33,10 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.magiclink
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: gabrielmacedoanac
+      repo: sardoc
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
