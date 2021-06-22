@@ -16,8 +16,8 @@ theme:
 #      previous: 80 # p
       previous: 37 # ArrowLeft
       next: 39 # ArrowRight
-      # https://keycode.info/
-      # https://www.mkdocs.org/user-guide/styling-your-docs/
+#      https://keycode.info/
+#      https://www.mkdocs.org/user-guide/styling-your-docs/
       search: 83   # s  
   highlightjs: true
   hljs_languages:
