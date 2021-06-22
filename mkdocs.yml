@@ -4,7 +4,7 @@ site_author: ANAC
 site_description: Site estático da Superintendência de Aeronavegabilidade (SAR), Agência Nacional de Aviação Civil (ANAC), construído a partir de um conjunto de arquivos em Markdown para hospedar a documentação de interesse da superintendência. Conteúdo personalizável, pesquisável e compatível com dispositivos móveis (responsivo).
 
 # Repository
-repo_name: sardoc
+repo_name: gabrielmacedoanac/sardoc
 repo_url: https://github.com/gabrielmacedoanac/sardoc
 edit_uri: ""
 
