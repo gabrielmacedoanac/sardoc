@@ -1,3 +1,15 @@
+---
+title: MPR-301
+description: PROCESSO NORMATIVO NA SAR
+version: R04
+Processo SEI: 00058.003548/2021-89
+url:
+dcterms:
+disqus: sardoc
+---
+
+<script type = "application / json" class = "js-hipotese-config">{"showHighlights": false}</script><script async src = "https://hypothes.is/embed.js"> </script>
+
 **MANUAL DE PROCEDIMENTO**
 
 ## MPR/SAR-301-R04 ##
