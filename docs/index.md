@@ -238,5 +238,5 @@ Exibição da variável marcada no arquivo YAML no topo da página:
 \\* Navigation: \{\{ \navigation.* \}\}
 \\* GIT: \{\{ git.* \}\}
 \\* INFO: \{\{ macros_info() \}\}
-\\{{ macros_info() }}
+\\{\{ macros_info() \}\}
 ```
