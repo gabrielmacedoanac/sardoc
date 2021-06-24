@@ -22,11 +22,12 @@ Para a documentação completa visite [mkdocs.org](https://www.mkdocs.org).
         index.md  # A página inicial de documentação.
         ...       # Outras páginas, imagens e arquivos.
 
-```## Teste [Kumu.io](https://kumu.io/anac/anac)
+```
+## Teste [Kumu.io](https://kumu.io/anac/anac)
 
 Acesse em tela cheia em: https://kumu.io/anac/anac
-<iframe src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="940" height="600" frameborder="1"></iframe>
-````
+\\ <iframe src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="940" height="600" frameborder="1"></iframe>\\
+```
 
 ## Tabelas aninhadas
 
@@ -232,7 +233,8 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 Exibição da variável marcada no arquivo YAML no topo da página: 
 
 * Variável do YAML da página: {{ page.meta.variable }}
-```
+
+```code
 * Navigation: \{\{ \navigation.* \}\}
 * GIT: \{\{ git.* \}\}
 * INFO: \{\{ macros_info() \}\}
