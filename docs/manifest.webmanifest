@@ -5,7 +5,7 @@
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6",
+  "theme_color": "transparent",
   "description": "Documentação produzida pela Superintendência de Aeronavegabilidade (SAR) da Agência Nacional de Aviação Civil (ANAC)",
   "lang": "pt",
   "screenshots": [
