@@ -1,9 +1,21 @@
 {
   "short_name": "Sardoc",
   "name": "Documentação da SAR/ANAC",
+  "icons": [
+    {
+      "src": "/images/sardoc-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/sardoc-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],  
   "start_url": "https://gabrielmacedoanac.github.io/sardoc/",
   "background_color": "#3367D6",
-  "display": "standalone",
+  "display": "browser",
   "scope": "/",
   "theme_color": "transparent",
   "description": "Documentação produzida pela Superintendência de Aeronavegabilidade (SAR) da Agência Nacional de Aviação Civil (ANAC)",
