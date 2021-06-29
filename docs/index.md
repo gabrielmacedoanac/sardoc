@@ -177,22 +177,16 @@ Barra de progresso
 !!! example "Progress Bar Example"
 
 === "Output"
-    [=0% "0%"]
-    [=5% "5%"]
-    [=25% "25%"]
-    [=45% "45%"]
-    [=65% "65%"]
-    [=85% "85%"]
-    [=100% "100%"]
+  [=0% "0%"]
+  [=5% "5%"]
+  [=25% "25%"]
+  [=100% "100%"]
 
 === "Markdown"
 ```
     [=0% "0%"]
     [=5% "5%"]
     [=25% "25%"]
-    [=45% "45%"]
-    [=65% "65%"]
-    [=85% "85%"]
     [=100% "100%"]
 ```
 
@@ -206,10 +200,6 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 
     [=0%]{: .thin}
     [=5%]{: .thin}
-    [=25%]{: .thin}
-    [=45%]{: .thin}
-    [=65%]{: .thin}
-    [=85%]{: .thin}
     [=100%]{: .thin}
 
 === "Markdown"
@@ -219,10 +209,6 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 
     [=0%]{: .thin}
     [=5%]{: .thin}
-    [=25%]{: .thin}
-    [=45%]{: .thin}
-    [=65%]{: .thin}
-    [=85%]{: .thin}
     [=100%]{: .thin}
 ```
 
@@ -231,7 +217,6 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 - [x] marcada 1
 - [ ] não marcada 1
 - [x] Comunicação de Venda
-
 - [ ] Comunicação de Venda
 
 ## Botões
