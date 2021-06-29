@@ -100,13 +100,13 @@ plugins:
   - macros
   - mermaid2
       arguments:
-          securityLevel: 'loose'      
-          theme: |
-            ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'  
+        securityLevel: 'loose'      
+        theme: |
+          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'  
 
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
 
 extra_javascript:
-    - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
