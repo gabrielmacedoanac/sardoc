@@ -142,7 +142,6 @@ graph TB
 !!! Question "Pergunta"
     Pergunta
 
-- [ ] Comunicação de Venda
 !!! Warning "Atenção"
     Atenção: serviço indisponível para essa aeronave. Entre em contato com a ANAC ou selecione o serviço de Certidão da Aeronave para obter mais informações.
 
@@ -229,14 +228,15 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 ## Lista de tarefas
 
 \- \[ \] 
-- [x] - marcada 1
-- [ ] - não marcada 1
+- [x] marcada 1
+- [ ] não marcada 1
+- [x] Comunicação de Venda
 
 ## Botões
 
 1. [Assine a nossa lista de e-mail](#){ .md-button }
 1. [Responda ao nosso formulário](#){ .md-button .md-button--primary }
-1. [Envie :smile:](#){ .md-button .md-button--primary }
+1. [Envie :smile:](#smile){ .md-button .md-button--primary }
 
 
 ## Teste de Jinja2 com varíaveis
