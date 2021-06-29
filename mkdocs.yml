@@ -99,8 +99,8 @@ plugins:
       min_search_length: 2
   - macros
   - mermaid2
-#      arguments:
-#        securityLevel: 'loose'      
+      arguments:
+        securityLevel: 'loose'      
 #        theme: |
 #          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'  
 
