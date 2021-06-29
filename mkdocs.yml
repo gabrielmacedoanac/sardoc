@@ -93,9 +93,9 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: pt    
-#      separator: '[\s\-\.]+'
-      separator: '/[\s\-\_]+/'
+      lang: pt
+      prebuild_index: true
+      separator: '[\s\-\.]+'
       min_search_length: 2
   - macros
 
