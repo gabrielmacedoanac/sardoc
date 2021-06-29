@@ -102,7 +102,7 @@ plugins:
       arguments:
         securityLevel: 'loose'      
         theme: |
-          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
+            ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
         
 extra:
   disqus: sardoc
