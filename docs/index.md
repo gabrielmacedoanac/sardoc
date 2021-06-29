@@ -228,9 +228,10 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 ## Lista de tarefas
 
 \- \[ \] 
- - [x] marcada 1
- - [ ] não marcada 1
- - [x] Comunicação de Venda
+
+- [x] marcada 1
+- [ ] não marcada 1
+- [x] Comunicação de Venda
 
 ## Botões
 
