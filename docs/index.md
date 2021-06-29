@@ -186,7 +186,7 @@ Barra de progresso
     [=100% "100%"]
 
 === "Markdown"
-    ```
+```
     [=0% "0%"]
     [=5% "5%"]
     [=25% "25%"]
@@ -194,7 +194,8 @@ Barra de progresso
     [=65% "65%"]
     [=85% "85%"]
     [=100% "100%"]
-    ```
+```
+
 Though progress bars are rendered as block items, it accepts attr_list's inline format. markdown.extensions.attr_list must be enabled for the following to work.
 
 !!! example "Progress Bar with Attributes"
@@ -212,7 +213,7 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
     [=100%]{: .thin}
 
 === "Markdown"
-    ```
+```
     [=85% "85%"]{: .candystripe}
     [=100% "100%"]{: .candystripe .candystripe-animate}
 
@@ -223,15 +224,15 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
     [=65%]{: .thin}
     [=85%]{: .thin}
     [=100%]{: .thin}
-    ```
+```
 
 ## Lista de tarefas
-
-\- \[ \] 
 
 - [x] marcada 1
 - [ ] não marcada 1
 - [x] Comunicação de Venda
+
+- [ ] Comunicação de Venda
 
 ## Botões
 
