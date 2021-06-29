@@ -80,7 +80,6 @@ markdown_extensions:
   - pymdownx.snippets:
   - pymdownx.superfences:
       preserve_tabs: true
-  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
