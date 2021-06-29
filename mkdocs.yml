@@ -99,14 +99,14 @@ plugins:
       min_search_length: 2
   - macros
   - mermaid2
-      arguments:
+#      arguments:
 #        securityLevel: 'loose'      
-        theme: |
-          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'  
+#        theme: |
+#          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'  
 
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
 
 extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
