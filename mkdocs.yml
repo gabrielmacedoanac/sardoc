@@ -80,10 +80,11 @@ markdown_extensions:
   - pymdownx.snippets:
   - pymdownx.superfences:
       preserve_tabs: true
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.tabbed:
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -98,7 +99,11 @@ plugins:
       separator: '[\s\-\.]+'
       min_search_length: 2
   - macros
+  - mermaid2
 
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
