@@ -3,7 +3,7 @@
   "name": "Documentação da SAR/ANAC",
   "icons": [
     {
-      "src": "https://github.com/gabrielmacedoanac/sardoc/blob/main/images/sardoc-192.png"
+      "src": "https://github.com/gabrielmacedoanac/sardoc/blob/main/images/sardoc-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
