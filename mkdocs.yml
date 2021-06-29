@@ -101,7 +101,8 @@ plugins:
   - mermaid2:
       arguments:
         securityLevel: 'loose'      
-        theme: dark
+        theme: |
+          ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
         
 extra:
   disqus: sardoc
