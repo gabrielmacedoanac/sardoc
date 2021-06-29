@@ -98,9 +98,9 @@ plugins:
       separator: '[\s\-\.]+'
       min_search_length: 2
   - macros
-  - mermaid2
+  - mermaid2:
       arguments:
-#        securityLevel: 'loose'      
+        securityLevel: 'loose'      
         theme: dark
         
 extra:
