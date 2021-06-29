@@ -3,6 +3,7 @@ variable: "**variavel da página no bloco YAML. Pode ser uma gerência dona de u
 hide:
   - navigation
 ---
+<link rel="manifest" href="manifest.json" />
 
 # Início
 
