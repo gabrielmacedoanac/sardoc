@@ -3,12 +3,14 @@ variable: "**variavel da página no bloco YAML. Pode ser uma gerência dona de u
 hide:
   - navigation
 ---
-<link rel="manifest" href="https://github.com/gabrielmacedoanac/sardoc/blob/main/docs/manifest.webmanifest" />
-<script type="module">
-   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-   const el = document.createElement('pwa-update');
-   document.body.appendChild(el);
-</script>
+```
+\\<link rel="manifest" href="https://github.com/gabrielmacedoanac/sardoc/blob/main/docs/manifest.webmanifest" />
+\\<script type="module">
+\\   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+\\   const el = document.createElement('pwa-update');
+\\   document.body.appendChild(el);
+\\</script>
+```
 
 # Início
 
