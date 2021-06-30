@@ -38,7 +38,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Trocar para modo claro
-  language: 'en'
+  language: 'pt'
   icon:
     logo: material/book-open-page-variant
   font:
@@ -93,7 +93,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: en
+      lang: pt
       prebuild_index: true
       separator: '[\s\-\.]+'
       min_search_length: 2
