@@ -96,7 +96,7 @@ plugins:
       lang: pt
 #      prebuild_index: true
 #      separator: '[\s\-\.]+'
-      min_search_length: 2
+#      min_search_length: 2
   - macros
   - mermaid2:
       arguments:
