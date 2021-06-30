@@ -213,8 +213,9 @@ Though progress bars are rendered as block items, it accepts attr_list's inline 
 
 1. [Assine a nossa lista de e-mail](#){ .md-button }
 1. [Responda ao nosso formulário](#){ .md-button .md-button--primary }
+```
 1. [Envie :smile:](#smile){ .md-button .md-button--primary }
-
+```
 
 ## Teste de Jinja2 com varíaveis
 
