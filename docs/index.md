@@ -26,7 +26,7 @@ Para a documentação completa visite [mkdocs.org](https://www.mkdocs.org).
 ## Teste [Kumu.io](https://kumu.io/anac/anac)
 
 * Acesse em tela cheia em: https://kumu.io/anac/anac
-<iframe src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="940" height="600" frameborder="1"></iframe>
+<iframe title="Knowledge Graph ANAC - Kumu.io" src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="940" height="600" frameborder="1"></iframe>
 
 
 ## Tabelas aninhadas
