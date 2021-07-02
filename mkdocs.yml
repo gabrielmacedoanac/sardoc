@@ -51,17 +51,17 @@ theme:
 #    - navigation.sections
 
 markdown_extensions:
-  - admonition:
-  - attr_list:
+  - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
-  - footnotes:
-  - meta:
-  - pymdownx.arithmatex:
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.caret:
-  - pymdownx.details:
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg  
@@ -74,18 +74,18 @@ markdown_extensions:
       repo_url_shorthand: true
       social_url_shorthand: true
       provider: 'github'
-  - pymdownx.mark:
-  - pymdownx.progressbar:
+  - pymdownx.mark
+  - pymdownx.progressbar
 #  - pymdownx.smartsymbols
-  - pymdownx.snippets:
+  - pymdownx.snippets
   - pymdownx.superfences:
       preserve_tabs: true
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
-  - pymdownx.tabbed:
-  - pymdownx.tasklist:
+  - pymdownx.tabbed
+  - pymdownx.tasklist
       custom_checkbox: true
   - pymdownx.tilde:
   - toc:
@@ -96,7 +96,7 @@ plugins:
       lang: pt
 #      prebuild_index: true
 #      separator: '[\s\-\.]+'
-#      min_search_length: 2
+      min_search_length: 3
   - macros
   - mermaid2:
       arguments:
