@@ -89,8 +89,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde:
   - toc:
-      permalink: '#'
-
+      permalink: '✈'
+#      permalink: '#'
+      
 plugins:
   - search:
       lang: pt
