@@ -8,6 +8,8 @@ hide:
 
 Para a documentação completa visite [mkdocs.org](https://www.mkdocs.org).
 
+- [Portaria de organização interna da ANAC](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2020/53/bps-no-53-de-31-de-dezembro-de-2020.pdf)
+
 ## Comandos
 
 * `mkdocs new [dir-name]` - Cria um novo projeto.
