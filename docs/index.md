@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-**Germano esteve aqui!!**
+**Germano esteve aqui!!** *De novo!*
 
 # Início
 
