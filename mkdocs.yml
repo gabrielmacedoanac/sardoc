@@ -99,8 +99,6 @@ plugins:
       separator: '[\s\-\.]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
-  - git-revision-date-localized:
-      enable_creation_date: true
   - mermaid2:
       arguments:
         securityLevel: 'loose'      
