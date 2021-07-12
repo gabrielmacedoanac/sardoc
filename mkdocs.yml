@@ -98,7 +98,6 @@ plugins:
 # requer node.js     prebuild_index: true
       separator: '[\s\-\.]+'
 # 3 já é o padrão      min_search_length: 3
-  - git-revision-date
   - macros
   - mermaid2:
       arguments:
