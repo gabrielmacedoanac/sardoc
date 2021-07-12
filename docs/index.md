@@ -10,25 +10,27 @@ hide:
 
 <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
 <script src="https://jsuites.net/v4/jsuites.js"></script>
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
 <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
- 
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.datatables.css" type="text/css" />
- 
+<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
+
 <div id="spreadsheet"></div>
- 
+
 <script>
+var data = [
+    ['Jazz', 'Honda', '2019-02-12', '', true, '$ 2.000,00', '#777700'],
+    ['Civic', 'Honda', '2018-07-11', '', true, '$ 4.000,01', '#007777'],
+];
+
 jspreadsheet(document.getElementById('spreadsheet'), {
-    csv:'https://bossanova.uk/jspreadsheet/v4/demo.csv',
-    csvHeaders:true,
-    search:true,
-    pagination:10,
+    data:data,
     columns: [
-        { type:'text', width:300 },
-        { type:'text', width:200 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
+        { type: 'text', title:'Car', width:120 },
+        { type: 'dropdown', title:'Make', width:200, source:[ "Alfa Romeo", "Audi", "Bmw" ] },
+        { type: 'calendar', title:'Available', width:200 },
+        { type: 'image', title:'Photo', width:120 },
+        { type: 'checkbox', title:'Stock', width:80 },
+        { type: 'numeric', title:'Price', width:100, mask:'$ #.##,00', decimal:',' },
+        { type: 'color', width:100, render:'square', }
      ]
 });
 </script>
