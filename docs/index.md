@@ -31,7 +31,6 @@ jspreadsheet(document.getElementById('spreadsheet'), {
         { type:'text', width:100 },
      ]
 });
-<script>
 </script>
 
 **Germano esteve aqui!!** *De novo!*
