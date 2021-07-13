@@ -35,13 +35,42 @@ jspreadsheet(document.getElementById('spreadsheet'), {
 });
 </script>
 
-## Tabela com botão de exportação para download
-
-<script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
-<script src="https://jsuites.net/v4/jsuites.js"></script>
-<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
+<div id="spreadsheet3"></div>
  
+<script>
+var data3 = [
+    [1, 'Morning'],
+    [2, 'Morning'],
+    [3, 'Afternoon'],
+    [3, 'Evening'],
+];
+ 
+jspreadsheet(document.getElementById('spreadsheet3'), {
+    data:data3,
+    columns: [
+        {
+            type:'dropdown',
+            title:'Category',
+            width:'300',
+            source:[
+                { id:'1', name:'Paulo', image:'/templates/default/img/1.jpg', title:'Admin', group:'Secretary' },
+                { id:'2', name:'Cosme Sergio', image:'/templates/default/img/2.jpg', title:'Teacher', group:'Docent' },
+                { id:'3', name:'Rose Mary', image:'/templates/default/img/3.png', title:'Teacher', group:'Docent' },
+                { id:'4', name:'Fernanda', image:'/templates/default/img/3.png', title:'Admin', group:'Secretary' },
+                { id:'5', name:'Roger', image:'/templates/default/img/3.png', title:'Teacher', group:'Docent' },
+            ]
+        },
+        {
+            type:'dropdown',
+            title:'Working hours',
+            width:'200',
+            source:['Morning','Afternoon','Evening'],
+            options: { type:'picker' },
+        },
+    ]
+});
+</script>
+
 <div id="spreadsheet1"></div>
  
 <p><button id='download'>Export my spreadsheet as CSV</button></p>
@@ -64,6 +93,8 @@ document.getElementById('download').onclick = function () {
     mySpreadsheet.download();
 }
 </script>
+
+
 
 **Germano esteve aqui!!** *De novo!*
 
