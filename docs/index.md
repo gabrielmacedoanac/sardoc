@@ -21,7 +21,7 @@ var data = [
     ['Civic', 'Honda', '2018-07-11', '', true, '$ 4.000,01', '#007777'],
 ];
 
-jspreadsheet(document.getElementById('spreadsheet'), {
+jspreadsheet(document.getElementById('spreadsheet1'), {
     data:data,
     columns: [
         { type: 'text', title:'Car', width:120 },
@@ -45,7 +45,7 @@ var data3 = [
     [3, 'Evening'],
 ];
  
-jspreadsheet(document.getElementById('spreadsheet3'), {
+jspreadsheet(document.getElementById('spreadsheet2'), {
     data:data3,
     columns: [
         {
@@ -53,11 +53,11 @@ jspreadsheet(document.getElementById('spreadsheet3'), {
             title:'Category',
             width:'300',
             source:[
-                { id:'1', name:'Paulo', image:'/templates/default/img/1.jpg', title:'Admin', group:'Secretary' },
-                { id:'2', name:'Cosme Sergio', image:'/templates/default/img/2.jpg', title:'Teacher', group:'Docent' },
-                { id:'3', name:'Rose Mary', image:'/templates/default/img/3.png', title:'Teacher', group:'Docent' },
-                { id:'4', name:'Fernanda', image:'/templates/default/img/3.png', title:'Admin', group:'Secretary' },
-                { id:'5', name:'Roger', image:'/templates/default/img/3.png', title:'Teacher', group:'Docent' },
+                { id:'1', name:'Paulo', image:'imag1.png', title:'Admin', group:'Secretary' },
+                { id:'2', name:'Cosme Sergio', image:'img2.jpg', title:'Teacher', group:'Docent' },
+                { id:'3', name:'Rose Mary', image:'img3.png', title:'Teacher', group:'Docent' },
+                { id:'4', name:'Fernanda', image:'img3.png', title:'Admin', group:'Secretary' },
+                { id:'5', name:'Roger', image:'img3.png', title:'Teacher', group:'Docent' },
             ]
         },
         {
@@ -76,7 +76,7 @@ jspreadsheet(document.getElementById('spreadsheet3'), {
 <p><button id='download'>Export my spreadsheet as CSV</button></p>
  
 <script>
-var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet1'), {
+var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet3'), {
     csv:'https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv',
     csvHeaders:true,
     tableOverflow:true,
@@ -104,7 +104,7 @@ var data1 = [
     [ '=B4', '1', 'Prototype', '2019-01-12', '0', '=PROGRESS(E4, "darkgreen")' ],
 ];
  
-var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
+var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet4'), {
     data:data1,
     columns: [
         { type: 'text', width: '60px', title: 'Photo', readOnly:true },
