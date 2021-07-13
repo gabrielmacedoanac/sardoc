@@ -48,7 +48,7 @@ jspreadsheet(document.getElementById('spreadsheet'), {
  
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet1'), {
-    csv:'/jspreadsheet/arts.csv',
+    csv:'https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv',
     csvHeaders:true,
     tableOverflow:true,
     columns: [
