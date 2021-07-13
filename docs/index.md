@@ -131,6 +131,26 @@ var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet4'), {
 });
 </script>
 
+<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.datatables.css" type="text/css" />
+ 
+<div id="spreadsheet5"></div>
+ 
+<script>
+jspreadsheet(document.getElementById('spreadsheet5'), {
+    csv:'https://bossanova.uk/jspreadsheet/v4/demo.csv',
+    csvHeaders:true,
+    search:true,
+    pagination:10,
+    columns: [
+        { type:'text', width:300 },
+        { type:'text', width:200 },
+        { type:'text', width:100 },
+        { type:'text', width:100 },
+        { type:'text', width:100 },
+     ]
+});
+</script>
+
 
 **Germano esteve aqui!!** *De novo!*
 
