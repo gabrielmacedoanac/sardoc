@@ -130,14 +130,12 @@ var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet4'), {
     }
 });
 </script>
-
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.datatables.css" type="text/css" />
  
 <div id="spreadsheet5"></div>
  
 <script>
 jspreadsheet(document.getElementById('spreadsheet5'), {
-    csv:'https://bossanova.uk/jspreadsheet/v4/demo.csv',
+    csv:'https://sample-videos.com/csv/Sample-Spreadsheet-10-rows.csv',
     csvHeaders:true,
     search:true,
     pagination:10,
