@@ -71,29 +71,6 @@ jspreadsheet(document.getElementById('spreadsheet2'), {
 });
 </script>
 
-<div id="spreadsheet3"></div>
- 
-<p><button id='download'>Export my spreadsheet as CSV</button></p>
- 
-<script>
-var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet3'), {
-    csv:'https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv',
-    csvHeaders:true,
-    tableOverflow:true,
-    columns: [
-        { type:'text', width:300 },
-        { type:'text', width:80 },
-        { type:'dropdown', width:120, source:['England','Wales','Northern Ireland','Scotland'] },
-        { type:'text', width:120 },
-        { type:'text', width:120 },
-     ]
-});
- 
-document.getElementById('download').onclick = function () {
-    mySpreadsheet.download();
-}
-</script>
-
 <div id="spreadsheet4"></div>
 
 <script>
