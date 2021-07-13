@@ -13,7 +13,7 @@ hide:
 <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
 <link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
 
-<div id="spreadsheet"></div>
+<div id="spreadsheet1"></div>
 
 <script>
 var data = [
@@ -35,7 +35,7 @@ jspreadsheet(document.getElementById('spreadsheet'), {
 });
 </script>
 
-<div id="spreadsheet3"></div>
+<div id="spreadsheet2"></div>
  
 <script>
 var data3 = [
@@ -71,7 +71,7 @@ jspreadsheet(document.getElementById('spreadsheet3'), {
 });
 </script>
 
-<div id="spreadsheet1"></div>
+<div id="spreadsheet3"></div>
  
 <p><button id='download'>Export my spreadsheet as CSV</button></p>
  
@@ -94,6 +94,42 @@ document.getElementById('download').onclick = function () {
 }
 </script>
 
+<div id="spreadsheet4"></div>
+
+<script>
+var data1 = [
+    [ '=B1', '1', 'New products section', '2019-02-12', '80', '=PROGRESS(E1, "darkgreen")' ],
+    [ '=B2', '1', 'API integration', '2019-03-01', '100', '=PROGRESS(E2, "darkgreen")' ],
+    [ '=B3', '7359', 'Deck', '2018-11-10', '30', '=PROGRESS(E3, "darkgreen")' ],
+    [ '=B4', '1', 'Prototype', '2019-01-12', '0', '=PROGRESS(E4, "darkgreen")' ],
+];
+ 
+var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
+    data:data1,
+    columns: [
+        { type: 'text', width: '60px', title: 'Photo', readOnly:true },
+        { type: 'dropdown', width: '140px', title: 'Name', },
+        { type: 'text', width: '200px', title: 'Task' },
+        { type: 'calendar', width: '100px', title: 'When' },
+        { type: 'text', width: '50px', title: '%' },
+        { type: 'text', width: '200px', title: 'Progress', stripHTML: false },
+    ],
+    allowComments:true,
+    updateTable: function(instance, cell, col, row, val, label, cellName) {
+        if (col == 0) {
+            if (instance.jexcel.options.data[row][col+1]) {
+                cell.innerHTML = '<img src="/templates/default/img/' + instance.jexcel.options.data[row][col+1] + '.jpg" style="width:16px;border-radius:16px">';
+            } else {
+                cell.innerHTML = '<img src="/templates/default/img/nophoto.jpg" style="width:16px;border-radius:16px">';
+            }
+        }
+ 
+        if (col == 5 && ! val) {
+            instance.jexcel.setValue('F'+(row+1), '=PROGRESS(E' + (row + 1) + ', "darkgreen")');
+        }
+    }
+});
+</script>
 
 
 **Germano esteve aqui!!** *De novo!*
