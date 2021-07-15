@@ -754,7 +754,7 @@ document.getElementById('download').onclick = function () {
         columns: [
             {
                 type:'text',
-                width:'300',
+                width:'24000',
                 title:'Ementa',
                 name: 'ementa'
             },
@@ -775,8 +775,9 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'text',
-                width:'100',
+                type:'calendar',
+                width:'80',
+                options: { format:'DD/MM/YYYY' },
                 title:'Data',
                 name:'data'
             },
@@ -808,7 +809,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'300',
+                width:'200',
                 title:'Anexos',
                 name:'anexos'
             }
