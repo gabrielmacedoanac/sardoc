@@ -17,7 +17,7 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<p><button id='download'>""</button></p>[Exportar minha tabela como CSV :fontawesome-solid-paper-plane:]{ .md-button }
+<p><button id='download'>[Exportar minha tabela como CSV :fontawesome-solid-paper-plane:](){ .md-button }</button></p>
 
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
@@ -71,15 +71,12 @@ document.getElementById('download').onclick = function () {
 
 <div id="spreadsheet2"></div>
 
-
 <p><button id='download2'>""</button></p>[Exportar base como CSV :fontawesome-solid-paper-plane:](#){ .md-button }
 
 <script>
     jexcel(document.getElementById('spreadsheet2'), {
         search:true,
-        jsonHeaders:true,
-        tableOverflow:false,
-        pagination:10,
+        pagination:30,
         data:[
             {
               "ementa": "Sistemas de oxigênio dos lavatórios.", 
