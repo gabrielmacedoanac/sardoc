@@ -71,6 +71,9 @@ document.getElementById('download').onclick = function () {
 
 <div id="spreadsheet2"></div>
 
+
+<p><button id='download2'>""</button></p>[Exportar base como CSV :fontawesome-solid-paper-plane:](#){ .md-button }
+
 <script>
     jexcel(document.getElementById('spreadsheet2'), {
         search:true,
@@ -778,8 +781,10 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'text',
-                width:'80',
+                type:'calendar',
+                title:'Data',
+                options: { format:'DD/MM/YYYY' },
+                width:'100',
                 name:'data'
             },
             {
@@ -789,7 +794,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'200',
+                width:'100',
                 name:'tipo_normatico'
             },
             {
@@ -819,7 +824,7 @@ document.getElementById('download').onclick = function () {
 //            },
          ]
     });
-document.getElementById('download').onclick = function () {
+document.getElementById('download2').onclick = function () {
     mySpreadsheet.download();
 }
 </script>
