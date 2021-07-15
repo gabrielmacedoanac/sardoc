@@ -17,8 +17,8 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<p><button id='download'>Export my spreadsheet as CSV</button></p>
- 
+[<p><button id='download'>Export my spreadsheet as CSV</button></p>](#){ .md-button }
+
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
         data:[
