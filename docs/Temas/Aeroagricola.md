@@ -775,7 +775,7 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'date',
+                type:'text',
                 width:'100',
                 title:'Data',
                 name:'data'
