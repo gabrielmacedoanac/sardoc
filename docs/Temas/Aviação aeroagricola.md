@@ -7,8 +7,6 @@ hide:
 disqus: ""
 ---
 
-  [4]: javascript:alert$.next("Feito!")
-
 ## Pesquisa de Normativos utilizando tabela em JS
 
 <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
@@ -18,7 +16,7 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<button id='download'>[Exportar tabela acima como arquivo CSV :fontawesome-solid-paper-plane:](4){ .md-button .md-button--primary }</button>
+<button id='download'>[Exportar tabela acima como arquivo CSV :fontawesome-solid-paper-plane:](javascript:alert$.next("Feito!")){ .md-button .md-button--primary }</button>
  
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
