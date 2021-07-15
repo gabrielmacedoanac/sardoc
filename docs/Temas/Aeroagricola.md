@@ -819,11 +819,11 @@ document.getElementById('download').onclick = function () {
 
 
 ## Importado do KUMU depois do tratamento
+<div id="example"></div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" type="text/css" />
-
 <table id="example" class="display" width="100%"></table>
 
 <script>
@@ -880,6 +880,4 @@ $(document).ready(function() {
     } );
 } );
 </script>
-
-
 <script src="https://gist.github.com/gabrielmacedoanac/420d84b6034bd62db97ede4c9cf01c4b.js"></script>
