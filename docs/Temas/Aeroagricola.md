@@ -761,6 +761,7 @@ document.getElementById('download').onclick = function () {
             {
                 type:'text',
                 width:'100',
+                title:'Norma',
                 name:'norma'
             },
             {
@@ -774,8 +775,9 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'text',
+                type:'date',
                 width:'100',
+                title:'Data',
                 name:'data'
             },
             {
@@ -786,6 +788,7 @@ document.getElementById('download').onclick = function () {
             {
                 type:'text',
                 width:'100',
+                title:'Tipo'
                 name:'tipo_normatico'
             },
             {
@@ -799,7 +802,7 @@ document.getElementById('download').onclick = function () {
                 name:'revogada'
             },
             {
-                type:'text',
+                type:'hidden',
                 width:'100',
                 name:'em_vigor'
             },
