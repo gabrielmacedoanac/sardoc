@@ -820,10 +820,10 @@ document.getElementById('download').onclick = function () {
 
 ## Importado do KUMU depois do tratamento
 
-<div id="spreadsheet2"></div>
+<div id="spreadsheet3"></div>
 
 <script>
-    jexcel(document.getElementById('spreadsheet2'), {
+    jexcel(document.getElementById('spreadsheet3'), {
         search:true,
         pagination:10,
         data:[
