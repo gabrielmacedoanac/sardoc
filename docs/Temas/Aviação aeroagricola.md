@@ -807,10 +807,10 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'100',
+                width:'300',
                 title:'Anexos',
                 name:'anexos'
-            },
+            }
          ]
     });
 document.getElementById('download').onclick = function () {
