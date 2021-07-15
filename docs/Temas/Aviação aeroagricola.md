@@ -17,7 +17,7 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<p><button id='download'>[Exportar minha tabela como CSV :fontawesome-solid-paper-plane:](){ .md-button }</button></p>
+<p><button id='download'>Clique para exportar tabela como CSV</button></p>
 
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
@@ -779,8 +779,8 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'calendar',
-                title:'Data',
-                options: { format:'DD/MM/YYYY' },
+//                title:'Data',
+//                options: { format:'DD/MM/YYYY' },
                 width:'100',
                 name:'data'
             },
@@ -814,11 +814,11 @@ document.getElementById('download').onclick = function () {
                 width:'500',
                 title:'Anexos',
                 name:'anexos'
-            }
+            },
 //             {
 //                type:'hidden',
 //                name:'gender'
-//            },
+//           },
          ]
     });
 document.getElementById('download2').onclick = function () {
