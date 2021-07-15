@@ -7,6 +7,7 @@ hide:
 disqus: ""
 ---
 
+  [4]: javascript:alert$.next("Feito!")
 
 ## Pesquisa de Normativos utilizando tabela em JS
 
@@ -17,7 +18,7 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<button id='download'>[Exportar tabela acima como arquivo CSV :fontawesome-solid-paper-plane:](#){ .md-button .md-button--primary }</button>
+<button id='download'>[Exportar tabela acima como arquivo CSV :fontawesome-solid-paper-plane:](4){ .md-button .md-button--primary }</button>
  
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
