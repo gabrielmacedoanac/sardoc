@@ -17,7 +17,7 @@ disqus: ""
 
 <div id="spreadsheet"></div>
 
-<p><button id='download'>Export my spreadsheet as CSV</button></p>
+<button id='download'>[Exportar tabela acima como arquivo CSV :fontawesome-solid-paper-plane:](#){ .md-button .md-button--primary }</button>
  
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
