@@ -762,7 +762,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'100',
+                width:'200',
                 name:'norma'
             },
             {
@@ -777,7 +777,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'100',
+                width:'80',
                 name:'data'
             },
             {
@@ -787,7 +787,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'100',
+                width:'200',
                 name:'tipo_normatico'
             },
             {
@@ -807,7 +807,7 @@ document.getElementById('download').onclick = function () {
             },
             {
                 type:'text',
-                width:'100',
+                width:'500',
                 title:'Anexos',
                 name:'anexos'
             },
