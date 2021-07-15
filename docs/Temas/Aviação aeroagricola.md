@@ -14,11 +14,10 @@ disqus: ""
 <script src="https://jsuites.net/v4/jsuites.js"></script>
 <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
 <link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v3/jexcel.datatables.css" type="text/css" />
 
 <div id="spreadsheet"></div>
 
-<p><button id='download'>[Exportar minha tabela como CSV :fontawesome-solid-paper-plane:]</button>){ .md-button }</p>
+[Exportar minha tabela como CSV :fontawesome-solid-paper-plane:]<p><button id='download'></button></p>{ .md-button }
 
 <script>
 var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
