@@ -4,6 +4,7 @@ description: "Tema relacionado à aviação aeroagrícola"
 hide:
   - navigation
   - toc
+disqus: ""
 ---
 
 
@@ -755,7 +756,8 @@ document.getElementById('download').onclick = function () {
         columns: [
             {
                 type:'text',
-                width:'100',
+                width:'300',
+                title:'Ementa',
                 name: 'ementa'
             },
             {
@@ -804,8 +806,9 @@ document.getElementById('download').onclick = function () {
                 name:'em_vigor'
             },
             {
-                type:'href',
+                type:'text',
                 width:'100',
+                title:'Anexos',
                 name:'anexos'
             },
 //             {
