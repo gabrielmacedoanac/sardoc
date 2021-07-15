@@ -1,6 +1,9 @@
 ---
 title: "Aviação Aeroagrícola"
-description: Tema relacionado à aviação aeroagrícola
+description: "Tema relacionado à aviação aeroagrícola"
+hide:
+  - navigation
+  - toc
 ---
 
 
@@ -13,55 +16,10 @@ description: Tema relacionado à aviação aeroagrícola
 
 <div id="spreadsheet"></div>
 
-<script>
-var data = [
-    ['Jazz', 'Honda', '2019-02-12', '', true, '$ 2.000,00', '#777700'],
-    ['Civic', 'Honda', '2018-07-11', '', true, '$ 4.000,01', '#007777'],
-];
-
-jspreadsheet(document.getElementById('spreadsheet'), {
-    data:data,
-    columns: [
-        { type: 'text', title:'Car', width:120 },
-        { type: 'dropdown', title:'Make', width:200, source:[ "Alfa Romeo", "Audi", "Bmw" ] },
-        { type: 'calendar', title:'Available', width:200 },
-        { type: 'image', title:'Photo', width:120 },
-        { type: 'checkbox', title:'Stock', width:80 },
-        { type: 'numeric', title:'Price', width:100, mask:'$ #.##,00', decimal:',' },
-        { type: 'color', width:100, render:'square', }
-     ]
-});
-</script>
-
-<div id="spreadsheet2"></div>
- 
-<script>
-var data2 = [
-    ['https://marketplace.canva.com/MACcZp2p4po/2/0/thumbnail_large/canva-black-white-acoustic-album-cover-MACcZp2p4po.jpg', 'Paul Parker'],
-    ['https://marketplace.canva.com/MACcY55adP4/1/0/thumbnail_large/canva-black-and-white-masculine-acoustic-modern-album-cover-MACcY55adP4.jpg', 'Mark Ellen']
-];
- 
-jspreadsheet(document.getElementById('spreadsheet2'), {
-    data:data2,
-    columns: [
-        { type:'text', width:300, title:'Cover' },
-        { type:'text', width:300, title:'Title' },
-    ],
-    updateTable: function (instance, cell, col, row, val, id) {
-        if (col == 0) {
-            cell.innerHTML = '<img src="' + val + '" style="width:100px;height:100px">';
-        }
-    }
-});
-</script>
-
-
-<div id="spreadsheet3"></div>
- 
 <p><button id='download'>Export my spreadsheet as CSV</button></p>
  
 <script>
-var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet3'), {
+var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet'), {
         data:[
             {
                 name:'Paulo',
@@ -110,10 +68,10 @@ document.getElementById('download').onclick = function () {
 }
 </script>
 
-<div id="spreadsheet4"></div>
+<div id="spreadsheet2"></div>
 
 <script>
-    jexcel(document.getElementById('spreadsheet4'), {
+    jexcel(document.getElementById('spreadsheet2'), {
         search:true,
         pagination:10,
         data:[
@@ -856,4 +814,7 @@ document.getElementById('download').onclick = function () {
 //            },
          ]
     });
+document.getElementById('download').onclick = function () {
+    mySpreadsheet.download();
+}
 </script>
