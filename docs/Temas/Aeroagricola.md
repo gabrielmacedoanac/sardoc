@@ -775,9 +775,8 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'calendar',
+                type:'text',
                 width:'80',
-                options: { format:'DD/MM/YYYY' },
                 title:'Data',
                 name:'data'
             },
