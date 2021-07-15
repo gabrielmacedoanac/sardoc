@@ -74,7 +74,7 @@ document.getElementById('download').onclick = function () {
     jexcel(document.getElementById('spreadsheet2'), {
         search:true,
         pagination:10,
-        url:'https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json',
+        url:"https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json",
         columns: [
             {
                 type:'text',
