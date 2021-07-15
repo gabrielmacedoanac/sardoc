@@ -775,7 +775,8 @@ document.getElementById('download').onclick = function () {
                 name:'alterada'
             },
             {
-                type:'text',
+                type:'calendar',
+                options: { format:'DD/MM/YYYY' },
                 width:'80',
                 title:'Data',
                 name:'data'
@@ -788,7 +789,7 @@ document.getElementById('download').onclick = function () {
             {
                 type:'text',
                 width:'100',
-                title:'Tipo'
+                title:'Tipo',
                 name:'tipo_normatico'
             },
             {
