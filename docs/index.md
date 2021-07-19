@@ -356,3 +356,29 @@ Exibição da variável marcada no arquivo YAML no topo da página:
 \\* INFO: \{\{ macros_info() \}\}
 \\{\{ macros_info() \}\}
 ```
+
+## Firebase Google
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCSnQCo2mO9n_SN62p6X4zVB46rSI9CWJw",
+    authDomain: "anac-3c50e.firebaseapp.com",
+    projectId: "anac-3c50e",
+    storageBucket: "anac-3c50e.appspot.com",
+    messagingSenderId: "921061949871",
+    appId: "1:921061949871:web:a3756643bced9b1986af5a",
+    measurementId: "G-V7P0PR3LM2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
