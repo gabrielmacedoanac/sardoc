@@ -14,6 +14,6 @@ disqus: sardoc
 
 - Arquivo no [SEI Pesquisa Pública]({{ page.meta.url_sei }})
 
-'''
-// <script type = "application / json" class = "js-hipotese-config">{"showHighlights": false}</script><script async src = "https://hypothes.is/embed.js"> </script>
+'''html
+\\<script type = "application / json" class = "js-hipotese-config">{"showHighlights": false}</script><script async src = "https://hypothes.is/embed.js"> </script>
 '''
