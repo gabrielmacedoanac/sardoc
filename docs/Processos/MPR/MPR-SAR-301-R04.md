@@ -19,6 +19,6 @@ disqus: sardoc
 - Arquivo no [Sharepoint GTPL]({{ page.meta.url_sharepoint }})
 - Arquivo no [Pergamum]({{ page.meta.url_pergamum }})
 
-'''html
+<code>'''html
 \\<script type = "application / json" class = "js-hipotese-config">{"showHighlights": false}</script><script async src = "https://hypothes.is/embed.js"> </script>
-'''
+'''</code>
