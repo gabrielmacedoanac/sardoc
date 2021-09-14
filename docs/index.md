@@ -3,53 +3,12 @@ variable: "**variavel da página no bloco YAML. Pode ser uma gerência dona de u
 hide:
   - navigation
 ---
-## Nova tabela
+Opções de tabelas:
 
-https://www.w3schools.com/howto/howto_js_filter_table.asp
+Apenas HTML
+* https://www.w3schools.com/howto/howto_js_filter_table.asp
 
-## Tabelas com Normativos e MPR/MPH
-
-<script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
-<script src="https://jsuites.net/v4/jsuites.js"></script>
-<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
- 
-<div id="portarias2021"></div>
- 
-<script>
-jspreadsheet(document.getElementById('portarias2021'), {
-    url: 'https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json',
-    columns: [
-        { type:'text', width:200 },
-        { type:'text', width:100 },
-        { type:'hidden', width:100 },
-        { type:'text', width:100 },
-        { type:'hidden', width:100 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
-        { type:'hidden', width:100 },
-        { type:'hidden', width:100 },
-        { type:'text', width:100 }
-     ]
-});
-</script>
-
-
-"ementa": "Altera o Programa Voo Simples.", 
-    "norma": "PORTARIA Nº 4430, 08/03/2021", 
-    "tornada_sem_efeito": "", 
-    "alterada": "", 
-    "data": "08/03/2021", 
-    "outros": "", 
-    "tipo_normatico": "Portaria", 
-    "publicacao": "DOU 11/03/2021, Seção 1, pág.70", 
-    "revogada": "", 
-    "em_vigor": "", 
-    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2021/portaria-no-4430-08-03-2021@@download/arquivo_norma/PA2021-4430.pdf"
-
-
-Fonte: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json
+## Usando Javascript externo
   
 ### Antigas
 <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
@@ -57,8 +16,6 @@ Fonte: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.j
 <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
 <link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
 
-
-  
 <div id="spreadsheet2"></div>
 
 <script>
@@ -1227,7 +1184,7 @@ document.getElementById('download').onclick = function () {
                 name:'Descrição'
             },
             {
-                type:'calendar',
+                type:'text',
                 width:'80',
                 title:'Emissão',
                 name:'Emissão'
@@ -1235,7 +1192,7 @@ document.getElementById('download').onclick = function () {
             {
                 type:'text',
                 width:'100',
-                tilte:'URL-Documento',
+                title:'URL-Documento',
                 name:'URL-Documento'
             },
             {
