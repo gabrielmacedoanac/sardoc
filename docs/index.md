@@ -3,141 +3,53 @@ variable: "**variavel da página no bloco YAML. Pode ser uma gerência dona de u
 hide:
   - navigation
 ---
-
-## 
-
-
-
 ## Nova tabela
 
 https://www.w3schools.com/howto/howto_js_filter_table.asp
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-#myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-}
-
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
-}
-</style>
-</head>
-<body>
-
-<h2>My Customers</h2>
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-
-<table id="myTable">
-  <tr class="header">
-    <th style="width:60%;">Name</th>
-    <th style="width:40%;">Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
-  </tr>
-</table>
-
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
-
-</body>
-</html>
-
-
 ## Tabelas com Normativos e MPR/MPH
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jexcel/2.1.0/js/jquery.jexcel.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jexcel/2.1.0/css/jquery.jexcel.min.css" type="text/css" />
-
-<div id="my"></div>
-
+<script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
+<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
+<script src="https://jsuites.net/v4/jsuites.js"></script>
+<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+ 
+<div id="portarias2021"></div>
+ 
 <script>
-$('#my').jexcel({
-    // The URL from your data table file in JSON format.
-    url:'https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json'
+jspreadsheet(document.getElementById('portarias2021'), {
+    url: 'https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json',
+    columns: [
+        { type:'text', width:200 },
+        { type:'text', width:100 },
+        { type:'hidden', width:100 },
+        { type:'text', width:100 },
+        { type:'hidden', width:100 },
+        { type:'text', width:100 },
+        { type:'text', width:100 },
+        { type:'text', width:100 },
+        { type:'hidden', width:100 },
+        { type:'hidden', width:100 },
+        { type:'text', width:100 }
+     ]
 });
 </script>
+
+
+"ementa": "Altera o Programa Voo Simples.", 
+    "norma": "PORTARIA Nº 4430, 08/03/2021", 
+    "tornada_sem_efeito": "", 
+    "alterada": "", 
+    "data": "08/03/2021", 
+    "outros": "", 
+    "tipo_normatico": "Portaria", 
+    "publicacao": "DOU 11/03/2021, Seção 1, pág.70", 
+    "revogada": "", 
+    "em_vigor": "", 
+    "anexos": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2021/portaria-no-4430-08-03-2021@@download/arquivo_norma/PA2021-4430.pdf"
+
+
+Fonte: https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json
   
 ### Antigas
 <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
