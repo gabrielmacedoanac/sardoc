@@ -3,7 +3,14 @@ variable: "**variavel da página no bloco YAML. Pode ser uma gerência dona de u
 hide:
   - navigation
 ---
+
+## 
+
+
+
 ## Nova tabela
+
+https://www.w3schools.com/howto/howto_js_filter_table.asp
 
 <html>
 <head>
@@ -117,11 +124,29 @@ function myFunction() {
 
 ## Tabelas com Normativos e MPR/MPH
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jexcel/2.1.0/js/jquery.jexcel.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jexcel/2.1.0/css/jquery.jexcel.min.css" type="text/css" />
+
+<div id="my"></div>
+
+<script>
+$('#my').jexcel({
+    // The URL from your data table file in JSON format.
+    url:'https://sistemas.anac.gov.br/dadosabertos/regulamentacao/portarias/2021.json'
+});
+</script>
+  
+### Antigas
 <script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
 <script src="https://jsuites.net/v4/jsuites.js"></script>
 <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
 <link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
 
+
+  
 <div id="spreadsheet2"></div>
 
 <script>
