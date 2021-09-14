@@ -772,7 +772,7 @@ document.getElementById('download').onclick = function () {
 <script>
     jexcel(document.getElementById('spreadsheet_intra'), {
         search:true,
-        pagination:10,
+        pagination:50,
         data:[
     {
         "Título": "MPH-250",
@@ -1162,25 +1162,25 @@ document.getElementById('download').onclick = function () {
         columns: [
             {
                 type:'text',
-                width:'240',
+                width:'80',
                 title:'Título',
                 name: 'Título'
             },
             {
                 type:'text',
-                width:'100',
+                width:'50',
                 title:'Revisão',
                 name:'Rev.'
             },
              {
                 type:'text',
-                width:'100',
+                width:'200',
                 title:'Descrição',
                 name:'Descrição'
             },
             {
                 type:'calendar',
-                width:'100',
+                width:'80',
                 title:'Emissão',
                 name:'Emissão'
             },
