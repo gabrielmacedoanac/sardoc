@@ -1,8 +1,6 @@
 ---
 title: "Aviação Aeroagrícola"
 description: "Tema relacionado à aviação aeroagrícola"
-hide:
-    - navigation
 disqus: ""
 ---
 
