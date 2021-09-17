@@ -10,7 +10,7 @@ hide:
 <script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js"></script>
 <div id="map"></div>
 
-//<![CDATA[ 
+<![CDATA[ 
 $(function(){
 jQuery(document).ready(function () {
     var map;
