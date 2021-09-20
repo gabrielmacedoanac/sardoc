@@ -17,6 +17,7 @@ disqus: ""
 <table
   id="table"
   data-toggle="table"
+  data-search="true"
   data-url="https://sistemas.anac.gov.br/dadosabertos/regulamentacao/rbha-e-rbac/rbac.json">
   <thead>
     <tr>
