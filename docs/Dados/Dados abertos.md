@@ -9,4 +9,4 @@ disqus: ""
 ## Repositório de dados abertos ANAC tratados
 [Base](https://octo-repo-visualization.vercel.app/?repo=gabrielmacedoanac%2Fflat-data-anac)
 
-<iframe src="https://octo-repo-visualization.vercel.app/?repo=gabrielmacedoanac%2Fflat-data-anac" frameborder="1" height=1500 width=100%></iframe>
+<iframe src="https://octo-repo-visualization.vercel.app/?repo=gabrielmacedoanac%2Fflat-data-anac" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
