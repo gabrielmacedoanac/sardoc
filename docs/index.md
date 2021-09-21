@@ -773,130 +773,6 @@ document.getElementById('download').onclick = function () {
 
 
 
-
-## Tabela com filtro instantâneo dinâmico e paginação
-
-- https://bossanova.uk/jspreadsheet/v4/examples/datatables
-
-<script src="https://bossanova.uk/jspreadsheet/v4/jexcel.js"></script>
-<script src="https://jsuites.net/v4/jsuites.js"></script>
-<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
-<link rel="stylesheet" href="https://bossanova.uk/jspreadsheet/v4/jexcel.css" type="text/css" />
-
-<div id="spreadsheet1"></div>
-
-<script>
-var data = [
-    ['Jazz', 'Honda', '2019-02-12', '', true, '$ 2.000,00', '#777700'],
-    ['Civic', 'Honda', '2018-07-11', '', true, '$ 4.000,01', '#007777'],
-];
-
-jspreadsheet(document.getElementById('spreadsheet1'), {
-    data:data,
-    columns: [
-        { type: 'text', title:'Car', width:120 },
-        { type: 'dropdown', title:'Make', width:200, source:[ "Alfa Romeo", "Audi", "Bmw" ] },
-        { type: 'calendar', title:'Available', width:200 },
-        { type: 'image', title:'Photo', width:120 },
-        { type: 'checkbox', title:'Stock', width:80 },
-        { type: 'numeric', title:'Price', width:100, mask:'$ #.##,00', decimal:',' },
-        { type: 'color', width:100, render:'square', }
-     ]
-});
-</script>
-
-<div id="spreadsheet3"></div>
- 
-<script>
-var data3 = [
-    [1, 'Morning'],
-    [2, 'Morning'],
-    [3, 'Afternoon'],
-    [3, 'Evening'],
-];
- 
-jspreadsheet(document.getElementById('spreadsheet3'), {
-    data:data3,
-    columns: [
-        {
-            type:'dropdown',
-            title:'Category',
-            width:'300',
-            source:[
-                { id:'1', name:'Paulo', image:'imag1.png', title:'Admin', group:'Secretary' },
-                { id:'2', name:'Cosme Sergio', image:'img2.jpg', title:'Teacher', group:'Docent' },
-                { id:'3', name:'Rose Mary', image:'img3.png', title:'Teacher', group:'Docent' },
-                { id:'4', name:'Fernanda', image:'img3.png', title:'Admin', group:'Secretary' },
-                { id:'5', name:'Roger', image:'img3.png', title:'Teacher', group:'Docent' },
-            ]
-        },
-        {
-            type:'dropdown',
-            title:'Working hours',
-            width:'200',
-            source:['Morning','Afternoon','Evening'],
-            options: { type:'picker' },
-        },
-    ]
-});
-</script>
-
-<div id="spreadsheet4"></div>
-
-<script>
-var data1 = [
-    [ '=B1', '1', 'New products section', '2019-02-12', '80', '=PROGRESS(E1, "darkgreen")' ],
-    [ '=B2', '1', 'API integration', '2019-03-01', '100', '=PROGRESS(E2, "darkgreen")' ],
-    [ '=B3', '7359', 'Deck', '2018-11-10', '30', '=PROGRESS(E3, "darkgreen")' ],
-    [ '=B4', '1', 'Prototype', '2019-01-12', '0', '=PROGRESS(E4, "darkgreen")' ],
-];
- 
-var mySpreadsheet = jspreadsheet(document.getElementById('spreadsheet4'), {
-    data:data1,
-    columns: [
-        { type: 'text', width: '60px', title: 'Photo', readOnly:true },
-        { type: 'dropdown', width: '140px', title: 'Name', },
-        { type: 'text', width: '200px', title: 'Task' },
-        { type: 'calendar', width: '100px', title: 'When' },
-        { type: 'text', width: '50px', title: '%' },
-        { type: 'text', width: '200px', title: 'Progress', stripHTML: false },
-    ],
-    allowComments:true,
-    updateTable: function(instance, cell, col, row, val, label, cellName) {
-        if (col == 0) {
-            if (instance.jexcel.options.data[row][col+1]) {
-                cell.innerHTML = '<img src="/templates/default/img/' + instance.jexcel.options.data[row][col+1] + '.jpg" style="width:16px;border-radius:16px">';
-            } else {
-                cell.innerHTML = '<img src="/templates/default/img/nophoto.jpg" style="width:16px;border-radius:16px">';
-            }
-        }
- 
-        if (col == 5 && ! val) {
-            instance.jexcel.setValue('F'+(row+1), '=PROGRESS(E' + (row + 1) + ', "darkgreen")');
-        }
-    }
-});
-</script>
- 
-<div id="spreadsheet5"></div>
- 
-<script>
-jspreadsheet(document.getElementById('spreadsheet5'), {
-    csv:'https://github.com/gabrielmacedoanac/sardoc/blob/main/docs/demo.csv',
-    csvHeaders:true,
-    search:true,
-    pagination:10,
-    columns: [
-        { type:'text', width:300 },
-        { type:'text', width:200 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
-        { type:'text', width:100 },
-     ]
-});
-</script>
-
-
 **[[Germano esteve aqui]]!!** *De novo!*
 
 # Início
@@ -923,8 +799,7 @@ Para a documentação completa visite [mkdocs.org](https://www.mkdocs.org).
 ## Teste [Kumu.io](https://kumu.io/anac/anac)
 
 * Acesse em tela cheia em: https://kumu.io/anac/anac
-<iframe title="Knowledge Graph ANAC - Kumu.io" src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="940" height="600" frameborder="1"></iframe>
-
+<iframe title="Knowledge Graph ANAC - Kumu.io" src="https://embed.kumu.io/afa1fffb10177f3cf7eb39d236802fdf" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
 
 ## Tabelas aninhadas
 
