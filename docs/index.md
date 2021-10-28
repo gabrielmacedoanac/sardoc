@@ -98,7 +98,7 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 
 ## Evolução do processo de Policy File (projeto A6)
 
- - Banco de policy Files
+ - Banco de Policy Files
 
 ## Próximos passos
 
