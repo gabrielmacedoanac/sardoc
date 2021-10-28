@@ -17,12 +17,12 @@ hide:
 
 ##  Entregas
 
- - **Projeto A1 = Prototipação de Base de dados + Busca + interfaces**;
- - Projeto A2 = Levantamento e padronização de fontes de dados - Projeto piloto (GTNI);
- - **Projeto A3 = Implementação de fórum com integração das informações do SEAM (desejável)**;
- - Projeto A4 = Interface eletrônica para a promoção de busca a material acadêmico;
- - Projeto A5 = Repositório de discussões técnicas (informais);
- - **Projeto A6 = Proposta de evolução do processo de Policy File**.
+ - **A1 = Prototipação de Base de dados + Busca + interfaces**;
+ - A2 = Levantamento e padronização de fontes de dados - Projeto piloto (GTNI);
+ - **A3 = Implementação de fórum com integração das informações do SEAM (desejável)**;
+ - A4 = Interface eletrônica para a promoção de busca a material acadêmico;
+ - A5 = Repositório de discussões técnicas (informais);
+ - **A6 = Proposta de evolução do processo de Policy File**.
 
 ## Problema
 
@@ -54,7 +54,7 @@ Servidores da SAR
 ## Dados conectados
 
 1. Preparar os Stakeholders: formar os usuários para criar e manter os dados conectados
-1. Selecionar o conjunto de dados: definir quais dados serão publicados e conectálos para reuso
+1. Selecionar o conjunto de dados: definir quais dados serão publicados e conectá-los para reuso
 1. Modelar os dados: representar os dados e relações
 1. Nomear bons URIs
 1. Padronizar vocabulário para publicação
@@ -63,7 +63,7 @@ Servidores da SAR
 
 Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482/34816
 
-## Recuperação de informações (projeto A1)
+## Recuperação de informações (entrega A1)
 
 ### Tabelas
 
