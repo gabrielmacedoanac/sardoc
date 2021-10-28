@@ -21,7 +21,7 @@ hide:
  - Projeto A2 = Levantamento e padronização de fontes de dados - Projeto piloto (GTNI);
  - **Projeto A3 = Implementação de fórum com integração das informações do SEAM (desejável)**;
  - Projeto A4 = Interface eletrônica para a promoção de busca a material acadêmico;
- - Projeto A5 = Repositório de discussões técnicas (informais ;
+ - Projeto A5 = Repositório de discussões técnicas (informais);
  - **Projeto A6 = Proposta de evolução do processo de Policy File**.
 
 ## Problema
@@ -32,16 +32,24 @@ hide:
 
  - Recuperação de informações (bases de dados e interfaces)
 
-      [ Dado -> Conector -> Dado ]
-	  [ Ferramenta de busca ]
+```
+[ Dado -> Conector -> Dado ]
+```
+```
+[ Ferramenta de busca ]
+```
 
  - Controle e versionamento de dados para processo colaborativo gerenciável
 
-      GIT
+```
+GIT
+```
 
  - Envolvimento dos especialista do domínio
 
-      Servidores da SAR
+```
+Servidores da SAR
+```
 
 ## Dados conectados
 
