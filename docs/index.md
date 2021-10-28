@@ -59,7 +59,7 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 - [[HTML5]] puro e bibliotecas em [[Javascript]]
 - [[Flatgithub]] #flatdata para integração contínua (automatizada)
 
-### [[Grafos]]
+### Grafos
 
 **Visualização de grafos interativos** para a descoberta de informações.
 
@@ -76,7 +76,7 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 * Acesse em tela cheia em: https://graphcommons.com/graphs/56d77bb0-8668-4e0a-ac80-374b9d79afa1
 <iframe src="https://graphcommons.com/graphs/56d77bb0-8668-4e0a-ac80-374b9d79afa1/embed?show=Graph&fitgraph=true" frameborder="1" width="100%" class="wide max-h-[35rem]" style="height: 90vh;" allowfullscreen></iframe>
 
-### [[Sites estáticos]]
+### Sites estáticos
 - [[MkDocs]]
 - [[WikiANAC]]
 
