@@ -16,6 +16,7 @@ hide:
 # Projeto Setorial: Gestão de normativos de aeronavegabilidade (out/2021)
 
 ##  Objetivos
+
  - **Projeto A1 = Prototipação de Base de dados + Busca + interfaces**;
  - Projeto A2 = Levantamento e padronização de fontes de dados - Projeto piloto (GTNI);
  - **Projeto A3 = Implementação de fórum com integração das informações do SEAM (desejável)**;
