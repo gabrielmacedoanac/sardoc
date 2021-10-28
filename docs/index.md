@@ -20,24 +20,24 @@ hide:
  - Projeto A2 = Levantamento e padronização de fontes de dados - Projeto piloto (GTNI);
  - **Projeto A3 = Implementação de fórum com integração das informações do SEAM (desejável)**;
  - Projeto A4 = Interface eletrônica para a promoção de busca a material acadêmico;
-- Projeto A5 = Repositório de discussões técnicas (informais ;
-- **Projeto A6 = Proposta de evolução do processo de Policy File**.
+ - Projeto A5 = Repositório de discussões técnicas (informais ;
+ - **Projeto A6 = Proposta de evolução do processo de Policy File**.
 
 ## Problema
 
 **Como melhorar a recuperação de informações de normativos de aeronavegabilidade?**
 
 ## Conceitos
-- Recuperação de informações (bases de dados e interfaces)
+ - Recuperação de informações (bases de dados e interfaces)
 
       [ Dado -> Conector -> Dado ]
 	  [ Ferramenta de busca ]
 
-- Controle e versionamento de dados para processo colaborativo gerenciável
+ - Controle e versionamento de dados para processo colaborativo gerenciável
 
       GIT
 
-- Envolvimento dos especialista do domínio
+ - Envolvimento dos especialista do domínio
 
       Servidores da SAR
 
@@ -56,15 +56,15 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 ## Recuperação de informações (projeto A1)
 
 ### Tabelas
-- [[HTML5]] puro e bibliotecas em [[Javascript]]
-- [[Flatgithub]] #flatdata para integração contínua (automatizada)
+ - [[HTML5]] puro e bibliotecas em [[Javascript]]
+ - [[Flatgithub]] #flatdata para integração contínua (automatizada)
 
 ### Grafos
 
 **Visualização de grafos interativos** para a descoberta de informações.
 
-- [[Kumu.io]]
-- [[GraphCommons]]
+ - [[Kumu.io]]
+ - [[GraphCommons]]
 
 #### Teste [Kumu.io](https://kumu.io/anac/anac)
 
@@ -77,14 +77,14 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 <iframe src="https://graphcommons.com/graphs/56d77bb0-8668-4e0a-ac80-374b9d79afa1/embed?show=Graph&fitgraph=true" frameborder="1" width="100%" class="wide max-h-[35rem]" style="height: 90vh;" allowfullscreen></iframe>
 
 ### Sites estáticos
-- [[MkDocs]]
-- [[WikiANAC]]
+ - [[MkDocs]]
+ - [[WikiANAC]]
 
 ## Fórum (projeto A3)
-- [[Discourse]]
+ - [[Discourse]]
 
 ## Evolução do processo de Policy File (projeto A6)
-- Banco de policy Files
+ - Banco de policy Files
 
 ## Próximos passos
 1. Validação com outros usuários
