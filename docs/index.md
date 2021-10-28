@@ -28,6 +28,7 @@ hide:
 **Como melhorar a recuperação de informações de normativos de aeronavegabilidade?**
 
 ## Conceitos
+
  - Recuperação de informações (bases de dados e interfaces)
 
       [ Dado -> Conector -> Dado ]
@@ -56,15 +57,16 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 ## Recuperação de informações (projeto A1)
 
 ### Tabelas
- - [[HTML5]] puro e bibliotecas em [[Javascript]]
- - [[Flatgithub]] #flatdata para integração contínua (automatizada)
+
+ - **HTML5** puro e bibliotecas em **Javascript**
+ - **Flatgithub** #flatdata para integração contínua (automatizada)
 
 ### Grafos
 
 **Visualização de grafos interativos** para a descoberta de informações.
 
- - [[Kumu.io]]
- - [[GraphCommons]]
+ - **Kumu.io**
+ - **GraphCommons**
 
 #### Teste [Kumu.io](https://kumu.io/anac/anac)
 
@@ -77,15 +79,19 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 <iframe src="https://graphcommons.com/graphs/56d77bb0-8668-4e0a-ac80-374b9d79afa1/embed?show=Graph&fitgraph=true" frameborder="1" width="100%" class="wide max-h-[35rem]" style="height: 90vh;" allowfullscreen></iframe>
 
 ### Sites estáticos
- - [[MkDocs]]
- - [[WikiANAC]]
+
+ - **MkDocs**
+ - **WikiANAC**
 
 ## Fórum (projeto A3)
- - [[Discourse]]
+
+ - **Discourse**
 
 ## Evolução do processo de Policy File (projeto A6)
+
  - Banco de policy Files
 
 ## Próximos passos
+
 1. Validação com outros usuários
-1. Solicitação de ferramenta - contrato STI para [[Elastic Search]]
+1. Solicitação de ferramenta - contrato STI para **Elastic Search**
