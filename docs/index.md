@@ -67,7 +67,19 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 
 ### Tabelas
 
- - **HTML5** puro e bibliotecas em **Javascript**
+ - **HTML5**, bibliotecas em **Javascript** e sistemas dedicados (Datasette)
+#### Teste Datasette
+
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" width="100%" class="wide max-h-[35rem]" style="height: 90vh>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/galvanized-booming-september?path=README.md&previewSize=100"
+    title="Datasette com bases ANAC"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 1;">
+  </iframe>
+</div>
+
  - **Flatgithub** #flatdata para integração contínua (automatizada)
 
 ### Grafos
