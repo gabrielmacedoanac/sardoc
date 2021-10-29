@@ -12,7 +12,74 @@ Apenas HTML
 * https://www.w3schools.com/howto/howto_js_filter_table.asp
 
 ## Usando Javascript externo
-  
+
+<style>
+#grid {
+  height: 400px;
+}
+
+#toolbar {
+	background: #cbe4ff;
+	margin-bottom: 12px;
+	padding: 8px;
+
+	display: flex;
+	justify-content: space-between;
+}
+</style>
+
+<div id="toolbar" class="dgxl-app">
+	<div>
+		<input type="file" id="csv-file" name="files-csv" class="custom-file-input" accept=".csv"><label for="csv-file">Browse…</label>
+	</div>
+	<div>
+		<button class="button" id="button-save">Save</button>
+	</div>
+</div>
+
+<div id="grid"></div>
+
+<script src="https://code.datagridxl.com/datagridxl.js"></script>
+<!-- Papa Parse (to import and parse CSV files) -->
+<script src="/site_files/libs/papaparse/papaparse.min.js"></script>
+<script>
+var csvFile = document.getElementById("csv-file");
+
+// create empty grid
+var grid = new DataGridXL("grid", {
+  data: DataGridXL.createEmptyData(20,20)
+});
+
+csvFile.onchange = function(e){
+	var file = e.target.files[0];
+
+	console.log("FILE", file);
+
+    Papa.parse(file, {
+      header: true,
+      dynamicTyping: true,
+      complete: function(results) {
+
+        console.log("DATA", results);
+
+        // this should clear all that's inside "grid" dom node...
+
+        grid.setData(results.data);
+
+        // grid = new DataGridXL("grid", {
+        // 	data: results.data
+        // });
+
+      }
+    });
+
+}
+
+document.getElementById("button-save").onclick = function(){
+  grid.downloadDataAsCSV();
+}
+</script>
+
 ### Antigas
 # Início
 
