@@ -70,7 +70,7 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
  - **HTML5**, bibliotecas em **Javascript** e sistemas dedicados (Datasette)
 #### Teste Datasette
 
-<iframe src="https://glitch.com/embed/#!/embed/wool-fringe-avatar?path=README.md&previewSize=100" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
+<iframe src="https://glitch.com/embed/#!/embed/wool-fringe-avatar?path=regulamentos.csv&previewSize=100" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
 
 #### Teste Flatgithub
 
