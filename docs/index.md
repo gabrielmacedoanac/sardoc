@@ -100,11 +100,11 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
  - **MkDocs**
  - **WikiANAC**
 
-## Fórum (projeto A3)
+## Fórum (entrega A3)
 
  - **Discourse**
 
-## Evolução do processo de Policy File (projeto A6)
+## Evolução do processo de Policy File (entrega A6)
 
  - Banco de Policy Files
 
