@@ -53,8 +53,8 @@ theme:
     - navigation.top
 #    - navigation.sections
 # 404 page
-static_templates:
-  - 404.html
+  static_templates:
+    - 404.html
 
 markdown_extensions:
   - admonition
