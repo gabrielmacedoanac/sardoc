@@ -41,7 +41,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Trocar para modo claro
-  language: 'pt'
+  language: 'en'
   icon:
     logo: material/book-open-page-variant
   font:
@@ -102,7 +102,7 @@ plugins:
   - search:
 #      lang: pt
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
-      separator: '[\s\-\.]+'
+      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
