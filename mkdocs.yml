@@ -94,10 +94,10 @@ markdown_extensions:
       
 plugins:
   - search:
-      lang: pt
+#      lang: pt
 # requer node.js     prebuild_index: true
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
-      separator: '[\s]+'
+      separator: '[\s\-.]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
