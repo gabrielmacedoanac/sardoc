@@ -18,7 +18,10 @@ theme:
       next: 39 # ArrowRight
 #      https://keycode.info/
 #      https://www.mkdocs.org/user-guide/styling-your-docs/
-      search: 83   # s  
+      search: 83   # s
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
   highlightjs: true
   hljs_languages:
     - yaml
@@ -49,6 +52,9 @@ theme:
     - navigation.expand
     - navigation.top
 #    - navigation.sections
+# 404 page
+static_templates:
+  - 404.html
 
 markdown_extensions:
   - admonition
@@ -95,9 +101,8 @@ markdown_extensions:
 plugins:
   - search:
 #      lang: pt
-# requer node.js     prebuild_index: true
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
-      separator: '[\s\-.]+'
+      separator: '[\s\-\.]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
