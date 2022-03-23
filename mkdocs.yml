@@ -96,7 +96,8 @@ plugins:
   - search:
       lang: pt
 # requer node.js     prebuild_index: true
-      separator: '[\s\-\.]+'
+# Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
+      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
