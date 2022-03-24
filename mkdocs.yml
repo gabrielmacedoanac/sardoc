@@ -41,7 +41,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Trocar para modo claro
-  language: 'pt'
+  language: 'en'
   icon:
     logo: material/book-open-page-variant
   font:
@@ -60,7 +60,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - codehilite:
-      guess_lang: false
+      guess_lang: true
   - footnotes
   - meta
   - pymdownx.arithmatex
@@ -100,9 +100,9 @@ markdown_extensions:
       
 plugins:
   - search:
-      lang: pt
+      lang: en
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
-      separator: '[\s\.]+'
+      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
