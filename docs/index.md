@@ -117,5 +117,5 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 1. Validação com outros usuários
 1. Solicitação de ferramenta - contrato STI para **Elastic Search**
 
- - Meilisearch (alternativa ao Elastic Search)
+ - **Meilisearch** (protótipo entregue em mar/2022 - alternativa ao Elastic Search)
  ![Meilisearch](https://i.imgur.com/syqwr7k.png)
