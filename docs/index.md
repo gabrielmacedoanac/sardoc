@@ -103,7 +103,9 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 ## Fórum (entrega A3 mar/2022)
 
  - **Discourse**
+   - Imagem:
  ![discourseANAC](https://i.imgur.com/BnOIbU2.png)
+   - Iframe:
 <iframe src="https://homologacao-discourse.anac.gov.br" frameborder="1" width="100%" class="wide max-h-[35rem]" style="height: 90vh;" allowfullscreen></iframe>
 
 ## Evolução do processo de Policy File (entrega A6)
@@ -114,3 +116,6 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 
 1. Validação com outros usuários
 1. Solicitação de ferramenta - contrato STI para **Elastic Search**
+
+ - Meilisearch (alternativa ao Elastic Search)
+ ![Meilisearch](https://i.imgur.com/syqwr7k.png)
