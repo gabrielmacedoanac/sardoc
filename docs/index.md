@@ -10,7 +10,7 @@ tags:
   - knowledgegraph 
   - normas
 hide:
-  - navigation
+#  - navigation
 ---
 
 # Projeto Setorial: Gestão de normativos de aeronavegabilidade (out/2021)
