@@ -41,7 +41,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Trocar para modo claro
-  language: 'en'
+  language: 'pt-BR'
   icon:
     logo: material/book-open-page-variant
   font:
@@ -49,9 +49,11 @@ theme:
     code: 'Roboto Mono'
   features:
     - navigation.tabs
-    - navigation.expand
-    - navigation.top
+    - navigation.instant    
+#    - navigation.expand
+#    - navigation.top
 #    - navigation.sections
+    - navigation.tracking
 # 404 page
   static_templates:
     - 404.html
@@ -93,16 +95,16 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde:
+  - pymdownx.tilde
   - toc:
       permalink: '✈'
 #      permalink: '#'
       
 plugins:
   - search:
-      lang: en
+      lang: pt
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
-      separator: '[\s]+'
+#      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - macros
   - mermaid2:
@@ -110,7 +112,7 @@ plugins:
         securityLevel: 'loose'      
         theme: |
             ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
-        
+  - tags      
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
