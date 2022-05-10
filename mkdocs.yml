@@ -54,6 +54,9 @@ theme:
 #    - navigation.top
 #    - navigation.sections
     - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
 # 404 page
   static_templates:
     - 404.html
@@ -101,8 +104,8 @@ markdown_extensions:
 #      permalink: '#'
       
 plugins:
-  - search:
-      lang: pt
+  - search
+#      lang: pt
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
 #      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
@@ -112,7 +115,8 @@ plugins:
         securityLevel: 'loose'      
         theme: |
             ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
-  - tags      
+  - tags:
+      tags_file: tags.md  
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
