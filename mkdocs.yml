@@ -116,7 +116,7 @@ plugins:
         theme: |
             ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
   - tags:
-      tags_file: tags.md  
+      tags_file: docs/Legado/tags.md  
 extra:
   disqus: sardoc
   manifest: 'manifest.webmanifest'
