@@ -119,7 +119,3 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 
  - **Meilisearch** (protótipo entregue em mar/2022 - alternativa ao Elastic Search)
  ![Meilisearch](https://i.imgur.com/syqwr7k.png)
-
-
-
-[TAGS]
