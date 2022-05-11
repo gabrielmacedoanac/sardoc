@@ -96,6 +96,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -108,6 +111,7 @@ plugins:
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
 #      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
+  - charts
   - macros
   - mermaid2:
       arguments:
@@ -124,4 +128,7 @@ extra:
   disqus: sardoc
 
 extra_javascript:
-    - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
