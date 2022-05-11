@@ -18,94 +18,93 @@ hide:
 ```vegalite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
-  "height": 500,
+  "description": "An interactive visualization of connections among major U.S. airports in 2008. Based on a U.S. airports example by Mike Bostock.",
   "layer": [
     {
-      "data": {
-        "url": "data/us-10m.json",
-        "format": {
-          "type": "topojson",
-          "feature": "states"
-        }
-      },
-      "projection": {
-        "type": "albersUsa"
-      },
       "mark": {
         "type": "geoshape",
-        "fill": "lightgray",
-        "stroke": "white"
+        "fill": "#ddd",
+        "stroke": "#fff",
+        "strokeWidth": 1
+      },
+      "data": {
+        "url": "https://vega.github.io/vega-tutorials/airports/data/us-10m.json",
+        "format": {"type": "topojson", "feature": "states"}
       }
     },
     {
-      "data": {
-        "url": "data/airports.csv"
-      },
-      "projection": {
-        "type": "albersUsa"
-      },
-      "mark": "circle",
-      "encoding": {
-        "longitude": {
-          "field": "longitude",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "latitude",
-          "type": "quantitative"
-        },
-        "size": {"value": 5},
-        "color": {"value": "gray"}
-      }
-    },
-    {
-      "data": {
-        "url": "data/flights-airport.csv"
-      },
+      "mark": {"type": "rule", "color": "#000", "opacity": 0.35},
+      "data": {"url": "https://vega.github.io/vega-tutorials/airports/data/flights-airport.csv"},
       "transform": [
-        {"filter": {"field": "origin", "equal": "SEA"}},
+        {"filter": {"param": "org", "empty": false}},
         {
           "lookup": "origin",
           "from": {
-            "data": {
-              "url": "data/airports.csv"
-            },
+            "data": {"url": "https://vega.github.io/vega-tutorials/airports/data/airports.csv"},
             "key": "iata",
             "fields": ["latitude", "longitude"]
-          },
-          "as": ["origin_latitude", "origin_longitude"]
+          }
         },
         {
           "lookup": "destination",
           "from": {
-            "data": {
-              "url": "data/airports.csv"
-            },
+            "data": {"url": "https://vega.github.io/vega-tutorials/airports/data/airports.csv"},
             "key": "iata",
             "fields": ["latitude", "longitude"]
           },
-          "as": ["dest_latitude", "dest_longitude"]
+          "as": ["lat2", "lon2"]
         }
       ],
-      "projection": {
-        "type": "albersUsa"
-      },
-      "mark": "rule",
       "encoding": {
-        "longitude": {
-          "field": "origin_longitude",
-          "type": "quantitative"
+        "latitude": {"field": "latitude"},
+        "longitude": {"field": "longitude"},
+        "latitude2": {"field": "lat2"},
+        "longitude2": {"field": "lon2"}
+      }
+    },
+    {
+      "mark": {"type": "circle"},
+      "data": {"url": "https://vega.github.io/vega-tutorials/airports/data/flights-airport.csv"},
+      "transform": [
+        {"aggregate": [{"op": "count", "as": "routes"}], "groupby": ["origin"]},
+        {
+          "lookup": "origin",
+          "from": {
+            "data": {"url": "https://vega.github.io/vega-tutorials/airports/data/airports.csv"},
+            "key": "iata",
+            "fields": ["state", "latitude", "longitude"]
+          }
         },
-        "latitude": {
-          "field": "origin_latitude",
-          "type": "quantitative"
+        {"filter": "datum.state !== 'PR' && datum.state !== 'VI'"}
+      ],
+      "params": [{
+        "name": "org",
+        "select": {
+          "type": "point",
+          "on": "mouseover",
+          "nearest": true,
+          "fields": ["origin"]
+        }
+      }],
+      "encoding": {
+        "latitude": {"field": "latitude"},
+        "longitude": {"field": "longitude"},
+        "size": {
+          "field": "routes",
+          "type": "quantitative",
+          "scale": {"rangeMax": 1000},
+          "legend": null
         },
-        "longitude2": {"field": "dest_longitude"},
-        "latitude2": {"field": "dest_latitude"}
+        "order": {
+          "field": "routes",
+          "sort": "descending"
+        }
       }
     }
-  ]
+  ],
+  "projection": {"type": "albersUsa"},
+  "width": 900,
+  "height": 500
 }
 ```
 
