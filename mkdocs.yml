@@ -62,47 +62,46 @@ theme:
     - 404.html
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
-  - codehilite:
-      guess_lang: true
+  - def_list
   - footnotes
   - meta
-  - pymdownx.arithmatex
+  - md_in_html
+  - toc:
+      permalink: '✈'
+#      permalink: '#'
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg  
-  - pymdownx.escapeall:
-      hardbreak: true
-      nbsp: true  
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys      
   - pymdownx.magiclink:
-      repo_url_shortener: true
-      social_url_shortener: true
       repo_url_shorthand: true
-      social_url_shorthand: true
-      provider: 'github'
+      user: gabrielmacedoanac
+      repo: sardoc
   - pymdownx.mark
-  - pymdownx.progressbar
-#  - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.smartsymbols
   - pymdownx.superfences:
-      preserve_tabs: true
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-  - pymdownx.tabbed
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - toc:
-      permalink: '✈'
-#      permalink: '#'
-      
+     
 plugins:
   - search
 #      lang: pt
@@ -117,9 +116,11 @@ plugins:
             ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
   - tags:
       tags_file: tags.md
+  - minify:
+      minify_html: true
+      
 extra:
   disqus: sardoc
-  manifest: 'manifest.webmanifest'
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js
