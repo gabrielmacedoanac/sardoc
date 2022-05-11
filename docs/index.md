@@ -15,7 +15,7 @@ hide:
 
 
 
-Abra `arquivo.md` e adicione os metadados. Isso permite que você coloque metadados no topo dos arquivos markdown na sintaxe YAML. Esses metadados devem estar entre 3 hífens acima e abaixo.
+Abra `arquivo.md` e adicione os metadados. Isso permite que você coloque metadados no topo dos arquivos markdown na sintaxe YAML. Esses metadados devem estar entre 3 hífens acima e abaixo. [Fonte: 1](https://software.ac.uk/resources/guides/adding-schema-dot-org)
 
 ```
 ---
