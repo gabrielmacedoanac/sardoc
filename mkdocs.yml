@@ -118,7 +118,8 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
-      
+  - git-revision-date
+
 extra:
   disqus: sardoc
 
