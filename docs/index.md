@@ -13,7 +13,70 @@ hide:
   - navigation
 ---
 
+## Vega-lite
 
+```vegalite
+{
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {"a": "A", "b": 28}, {"a": "B", "b": 55}, {"a": "C", "b": 43},
+      {"a": "D", "b": 91}, {"a": "E", "b": 81}, {"a": "F", "b": 53},
+      {"a": "G", "b": 19}, {"a": "H", "b": 87}, {"a": "I", "b": 52}
+    ]
+  },
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}},
+    "y": {"field": "b", "type": "quantitative"}
+  }
+}
+```
+
+
+```vegalite
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/timvink/mkdocs-charts-plugin/main/docs/assets/charts/data/us-10m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "counties"
+      }
+    },
+    "transform": [{
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/timvink/mkdocs-charts-plugin/main/docs/assets/charts/data/unemployment.tsv"
+        },
+        "key": "id",
+        "fields": ["rate"]
+      }
+    }],
+    "projection": {
+      "type": "albersUsa"
+    },
+    "mark": {"type": "geoshape", "tooltip": true},
+    "encoding": {
+      "color": {
+        "field": "rate",
+        "type": "quantitative"
+      }
+    }
+  }
+```
+
+```vegalite
+{
+  "schema-url": "https://raw.githubusercontent.com/timvink/mkdocs-charts-plugin/main/docs/assets/charts/data/basic_bar_chart.json"
+}
+```
+
+
+
+## JSON-LD e Schema.org
 
 Abra `arquivo.md` e adicione os metadados. Isso permite que você coloque metadados no topo dos arquivos markdown na sintaxe YAML. Esses metadados devem estar entre 3 hífens acima e abaixo. [Fonte: 1](https://software.ac.uk/resources/guides/adding-schema-dot-org)
 
