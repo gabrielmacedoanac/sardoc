@@ -1,5 +1,5 @@
 # Tags
 
-Following is a list of relevant tags:
+Segue uma lista de tags disponíveis:
 
 [TAGS]
