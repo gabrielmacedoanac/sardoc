@@ -13,6 +13,44 @@ hide:
   - navigation
 ---
 
+
+
+Abra `arquivo.md` e adicione os metadados. Isso permite que você coloque metadados no topo dos arquivos markdown na sintaxe YAML. Esses metadados devem estar entre 3 hífens acima e abaixo.
+
+```
+---
+layout: tutorial
+schemadotorg:
+ "@context": http://schema.org/
+ "@type": CreativeWork
+ about: "This is a training material about schema.org"
+ audience:
+   - "@type": Audience
+     name: WebMaster
+ genre: "Tutorial"
+ name: "Adding schema.org to your website"
+ author: ["Fred Dibnah", "Niall Beard"]
+ contributor:
+   - "@type": Person
+     name: "Frank Spencer"
+ description: "In order to establish higher search results for online resources"
+ keywords: ["schemaorg", "TeSS"]
+ license: CC-BY 4.0
+ version: 1.0
+---
+```
+
+### Meu tutorial incrível
+
+Este é o meu tutorial. É ótimo porque
+
+- É grátis
+- Está nas Páginas do Github
+- Tem schema.org
+
+
+
+
 # Projeto Setorial: Gestão de normativos de aeronavegabilidade (out/2021)
 
 ##  Entregas
