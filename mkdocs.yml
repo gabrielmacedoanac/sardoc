@@ -113,6 +113,7 @@ plugins:
 #      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - charts
+  - git-revision-date
   - macros
   - mermaid2:
       arguments:
@@ -123,7 +124,7 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
-  - git-revision-date
+
 
 extra:
   disqus: sardoc
