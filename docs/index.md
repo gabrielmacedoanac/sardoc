@@ -15,7 +15,8 @@ hide:
 
 ## Plotly
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~chris/1638.embed" height="525" width="100%"></iframe>
+<iframe id="igraph1" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~tim.lichtenberg/686.embed" height="525" width="100%"></iframe>
+<iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~chris/1638.embed" height="525" width="100%"></iframe>
 
 
 ## Vega-lite
