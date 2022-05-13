@@ -15,8 +15,18 @@ hide:
 
 ## Plotly
 
+Ver também: 
+
+- https://chart-studio.plotly.com/~jackp/17434/drone-flight-paths-in-plotly-and-python
+- https://dash.gallery/dash-turbine-maintenance/
+- https://dash.gallery/dash-nlp/
+- https://github.com/plotly/dash-pivottable
+
 <iframe id="igraph1" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~tim.lichtenberg/686.embed" height="525" width="100%"></iframe>
 <iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~chris/1638.embed" height="525" width="100%"></iframe>
+
+### Acidentes na aviação
+<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~s3370523/28.embed" height="525" width="100%"></iframe>
 
 
 ## Vega-lite
