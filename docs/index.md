@@ -26,8 +26,10 @@ Ver também:
 <iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~chris/1638.embed" height="525" width="100%"></iframe>
 
 ### Acidentes na aviação
-<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~s3370523/28.embed" height="525" width="100%"></iframe>
 
+
+<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~s3370523/28.embed" height="525" width="100%"></iframe>
+https://chart-studio.plotly.com/~s3370523/28/aviation-accidents-by-phase-of-flight/#code
 
 ## Vega-lite
 
