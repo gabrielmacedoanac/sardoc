@@ -91,7 +91,7 @@ Indica a fonte primária das tabelas de dados. Use para acessar a fonte original
 
 ### Navegação sobre os dados alterados
 
-Utilize as setas para navegar sobre as alterações nos dados históricos das tabelas. Por padrão são exibidas as alterações entre o dado mais atual e o imediatamente anterior.
+Utilize as setas para navegar sobre as alterações nos dados históricos das tabelas. Por padrão são exibidas as alterações entre o dado mais atual (ou o conjunto selecionado) e o imediatamente anterior.
 
 ```
 Changes: 
