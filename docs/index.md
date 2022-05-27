@@ -11,6 +11,7 @@ tags:
   - normas
 hide:
   - navigation
+  - toc
 ---
 
 ![](https://i.imgur.com/aNoWWIu.png)
@@ -20,6 +21,7 @@ Buscas integradas às bases de dados abertas da ANAC.
 ## Flat-data ANAC
 
 Dados abertos da ANAC exibidos de forma versionada.
+Abra o [visulizador em tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv).
 
 - Pesquise e filtre diversas colunas
 
