@@ -136,7 +136,7 @@ Linha removida:
 
 ### Exportação dos dados
 
-Escolhe entre os formatos CSV ou JSON para exportar a visualização atual dos dados.
+Escolhe entre os formatos CSV ou JSON para exportar a visualização atual dos dados. O arquivo final considera os filtros aplicados na visualização.
 
 ![](https://user-images.githubusercontent.com/83769557/170715447-ba345e71-498b-4945-b177-84c4337a3b69.png)
 
