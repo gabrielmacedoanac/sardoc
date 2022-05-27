@@ -9,5 +9,5 @@ hide:
 
 Buscas integradas às bases de dados da ANAC usando Flat Data. 
 
-- [_Flat Data_](/docs/Ferramentas/Flat%20Data/flat-data.md)
-- [_Flat Data_ - instruções](/docs/Ferramentas/Flat%20Data/instrucoes-flat-data.md)
+- [_Flat Data_](/Ferramentas/Flat%20Data/flat-data/)
+- [_Flat Data_ - instruções](/Ferramentas/Flat%20Data/instrucoes-flat-data/)
