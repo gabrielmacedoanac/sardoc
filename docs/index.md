@@ -104,9 +104,9 @@ Utilize as setas para navegar sobre as alterações nos dados históricos das ta
 
 ```
 Changes: 
-+113 rows
++113  rows
 [*]72 rows
--60 rows
+-60   rows
 
 Showing 94.767 rows
 ```
@@ -115,9 +115,9 @@ Isso quer dizer, por exemplo, que a tabela **drones** passou pelas seguintes alt
 
 ```
 Alterações: 
-+113 linhas novas
++113  linhas novas
 [*]72 linhas alteradas
--60 linhas removidas
+-60   linhas removidas
 
 Exibindo 94.767 linhas
 ```
