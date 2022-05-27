@@ -1,14 +1,13 @@
 ---
-title: Flat Data
+title: SAR Doc
 hide:
   - navigation
   - toc
 ---
 
-- [_Flat Data_  - tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv)
-- [_Flat Data_ - instruções](https://gabrielmacedoanac.github.io/sardoc/Ferramentas/flat-data-ferramenta/)
-
-<iframe title="Flatgithub ANAC - #flatdata" src="https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv" width="100%" class="wide max-h-[35rem]" style="height: 94vh;"></iframe>
+## Flat Data
 
 Buscas integradas às bases de dados da ANAC usando Flat Data. 
 
+- [_Flat Data_](/flat-data.md/)
+- [_Flat Data_ - instruções](docs/Ferramentas/Flat Data/instrucoes-flat-data.md)
