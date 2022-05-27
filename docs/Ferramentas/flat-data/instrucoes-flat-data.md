@@ -91,7 +91,7 @@ Indica a fonte primária das tabelas de dados. Use para acessar a fonte original
 
 ![](https://user-images.githubusercontent.com/83769557/170714625-ce15fb5d-36b1-4088-b6b6-8d430ff06545.png)
 
-Utilize as setas para navegar sobre as alterações nos dados históricos das tabelas. Por padrão são exibidas as alterações entre o dado mais atual (ou o conjunto selecionado) e o imediatamente anterior.
+Utilize as setas para navegar sobre as alterações nos dados históricos das tabelas. Por padrão são exibidas as alterações entre o dado mais atual (ou o _commit_ selecionado) e o imediatamente anterior.
 
 ```
 Changes: 
