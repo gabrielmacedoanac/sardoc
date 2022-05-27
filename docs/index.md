@@ -98,6 +98,8 @@ Indica a fonte primária das tabelas de dados. Use para acessar a fonte original
 
 ### Navegação sobre os dados alterados
 
+![](https://user-images.githubusercontent.com/83769557/170714625-ce15fb5d-36b1-4088-b6b6-8d430ff06545.png)
+
 Utilize as setas para navegar sobre as alterações nos dados históricos das tabelas. Por padrão são exibidas as alterações entre o dado mais atual (ou o conjunto selecionado) e o imediatamente anterior.
 
 ```
@@ -124,18 +126,13 @@ Linha nova:
 
 ![](https://user-images.githubusercontent.com/83769557/170716984-69cc8d67-deb7-4ebb-888b-ba8c1139237e.png)
 
-
 Linha alterada:
 
 ![](https://user-images.githubusercontent.com/83769557/170716742-3306c6b1-5acc-4d39-8346-0bee89904524.png)
 
-
 Linha removida:
 
 ![](https://user-images.githubusercontent.com/83769557/170716802-e19922eb-0aa0-4717-8a09-cb4b47803507.png)
-
-
-![](https://user-images.githubusercontent.com/83769557/170714625-ce15fb5d-36b1-4088-b6b6-8d430ff06545.png)
 
 ### Exportação dos dados
 
