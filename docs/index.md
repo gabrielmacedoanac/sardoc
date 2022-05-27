@@ -2,7 +2,7 @@
 title: SAR Doc
 hide:
   - navigation
-  - toc
+#  - toc
 ---
 
 ![](https://user-images.githubusercontent.com/83769557/170774999-7c28fb2e-a0d4-4413-b071-87b4eadbf23e.png)
