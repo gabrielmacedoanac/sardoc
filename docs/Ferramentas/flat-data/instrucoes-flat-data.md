@@ -13,7 +13,9 @@ hide:
 
 **Apresentação**
 
-O Flat Data evita a complexidade de muitas ferramentas de ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, sem requerer que a infraestrutura seja mantida pelos usuários.[^1]
+O Flat Data evita a complexidade de muitas ferramentas de ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, sem requerer que a infraestrutura seja mantida pelos usuários. [^1]
+
+[^1]: https://githubnext.com/projects/flat-data
 
 A ferramenta entrega várias funcionalidades para explorar os dados, tais como:
 
@@ -42,7 +44,6 @@ Abra o [visualizador _Flat Viewer_ em tela cheia](https://flatgithub.com/gabriel
 **Profissionais credenciados**:
 - Profissionais de Aeronavegabilidade
 - 
-
 
 ## Tutorial
 
