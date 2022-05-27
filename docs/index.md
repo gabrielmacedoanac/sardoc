@@ -26,7 +26,7 @@ Dados abertos da ANAC exibidos de forma versionada.
 ### Tabelas disponíveis
 
 #### Regulamentos (RBAC, IS, Resoluções, Portarias, Decisões...)
-- [Todos os regulamentos](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv)]
+- [Todos os regulamentos](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv)
 - RBAC
 - IS
 
