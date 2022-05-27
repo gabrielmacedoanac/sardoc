@@ -16,14 +16,21 @@ hide:
 
 ![](https://i.imgur.com/aNoWWIu.png)
 
-Buscas integradas às bases de dados abertas da ANAC.
+Buscas integradas às bases de dados abertas da ANAC usando Flat Data.
 
-## Flat-data ANAC
+O Flat Data evita a complexidade de muitas ferramentas de ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, sem requerer que a infraestrutura seja mantida pelos usuários.[1](https://githubnext.com/projects/flat-data)
 
-Dados abertos da ANAC exibidos de forma versionada.
-Abra o [visulizador em tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv).
+A ferramenta entrega várias funcionalidades para explorar os dados, tais como:
 
-- Pesquise e filtre diversas colunas
+- Filtragem múltipla
+- Ordenação
+- Cabeçalhos e colunas fixas
+- Diferenças entre versões específicas que alteraram os dados
+
+## Flat Data ANAC
+
+Os dados abertos da ANAC podem ser pesquisados e exibidos de forma versionada.
+Abra o [visualizador _Flat Viewer_ em tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv).
 
 ### Tabelas disponíveis
 
