@@ -7,8 +7,8 @@ tags:
   - git 
   - normas
 hide:
-#  - navigation
-  - toc
+  - navigation
+#  - toc
 ---
 
 # Instruções
