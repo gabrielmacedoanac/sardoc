@@ -4,8 +4,6 @@ hide:
   - navigation
   - toc
 ---
-
-# Flat Data
 - [_Flat Data_  - tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv)
 - [_Flat Data_ - instruções](https://gabrielmacedoanac.github.io/sardoc/Ferramentas/flat-data-ferramenta/)
 
