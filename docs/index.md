@@ -1,7 +1,7 @@
 ---
 title: SAR Doc
 hide:
-  - navigation
+#  - navigation
 #  - toc
 ---
 
