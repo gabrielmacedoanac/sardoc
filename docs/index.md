@@ -5,6 +5,6 @@ hide:
 #  - toc
 ---
 
-![](https://user-images.githubusercontent.com/83769557/170774999-7c28fb2e-a0d4-4413-b071-87b4eadbf23e.png)
+<iframe title="Flatgithub ANAC - #flatdata" src="https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
 
 Buscas integradas às bases de dados abertas da ANAC usando Flat Data.
