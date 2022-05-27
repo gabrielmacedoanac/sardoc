@@ -18,7 +18,7 @@ hide:
 
 Buscas integradas às bases de dados abertas da ANAC usando Flat Data.
 
-O Flat Data evita a complexidade de muitas ferramentas de ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, sem requerer que a infraestrutura seja mantida pelos usuários.[1](https://githubnext.com/projects/flat-data)
+O Flat Data evita a complexidade de muitas ferramentas de ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, sem requerer que a infraestrutura seja mantida pelos usuários.[^1](https://githubnext.com/projects/flat-data)
 
 A ferramenta entrega várias funcionalidades para explorar os dados, tais como:
 
