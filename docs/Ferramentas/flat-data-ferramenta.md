@@ -46,7 +46,7 @@ Abra o [visualizador _Flat Viewer_ em tela cheia](https://flatgithub.com/gabriel
 
 ## Tutorial
 
-### Menu da ferramenta
+### Opções disponíveis no topo da ferramenta
 
 ![](https://user-images.githubusercontent.com/83769557/170712636-bdd38347-2853-45ef-a0e6-1d0585db816e.png)
 
@@ -82,7 +82,7 @@ Selecione uma versão para voltar no histórico:
 Indica a fonte primária das tabelas de dados. Use para acessar a fonte original de onde os dados foram coletados.
 
 
-## Rodapé da ferramenta
+### Opções disponíveis no rodapé da ferramenta
 
 ![](https://user-images.githubusercontent.com/83769557/170714452-20df6297-021a-4167-87c9-e3a32da80e9a.png)
 
