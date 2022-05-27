@@ -13,7 +13,7 @@ hide:
   - navigation
 ---
 
-![](https://i.imgur.com/RoniSf2.png)
+![](https://i.imgur.com/aNoWWIu.png)
 
 ## Flat-data ANAC
 
