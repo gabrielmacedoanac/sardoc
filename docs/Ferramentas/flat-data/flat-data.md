@@ -12,4 +12,4 @@ hide:
 
 Buscas integradas às bases de dados da ANAC usando Flat Data. 
 
-O Flat Data evita a complexidade de muitas ferramentas no espaço de dados/ETL em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, mas que não requer que a infraestrutura seja mantida num servidor do usuário. Trata-se de uma ação automática e periódica no GitHub que busca e transforma dados, posteriormente exibindo numa interface comum de consulta para todas as bases de dados (.csv, .tsv, .json, sql, .xlsx e outras).
+O Flat Data evita a complexidade de muitas ferramentas de manipulação de dados (ETL) em favor de algo simples e flexível o suficiente para muitas cargas de trabalho, mas que não requer que a infraestrutura seja mantida num servidor próprio do usuário. Trata-se de uma ação automática e periódica no GitHub que busca e transforma dados, posteriormente exibindo uma interface comum de consulta para todas as bases de dados selecionadas, em diversos formatos, por exemplo: .csv, .tsv, .json, sql, .xlsx e outras.
