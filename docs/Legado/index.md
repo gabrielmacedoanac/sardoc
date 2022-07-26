@@ -1,5 +1,5 @@
 ---
-title: Possibilidades de uso do MKDocs
+title: SAR Doc
 tags: 
   - projeto
   - anac 
@@ -9,6 +9,8 @@ tags:
   - opensource 
   - knowledgegraph 
   - normas
+hide:
+  - navigation
 ---
 
 ## Plotly

@@ -12,7 +12,7 @@ disqus: sardoc
 ---
 
 - Publicação no site da ANAC: {{ page.meta.url_anac }}
-<iframe src="https://via.hypothes.is/https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2021/29/anexo-vi-mpr-sar-301-r04" frameborder="0" height="500px" width="100%">
+<iframe src="https://via.hypothes.is/{{ page.meta.url_anac }}" frameborder="0" height="500px" width="100%">
 </iframe>
 
 - Arquivo no [SEI Pesquisa Pública]({{ page.meta.url_sei }})

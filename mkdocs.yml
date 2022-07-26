@@ -107,13 +107,13 @@ markdown_extensions:
   - tables
      
 plugins:
-  - search:
-      lang: pt
+  - search
+#      lang: pt
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
 #      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
   - charts
-#  - git-revision-date
+  - git-revision-date
   - macros
   - mermaid2:
       arguments:
@@ -124,6 +124,7 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
+
 
 extra:
   disqus: sardoc
