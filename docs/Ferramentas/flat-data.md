@@ -7,11 +7,9 @@ tags:
   - git 
   - normas
 hide:
-  - navigation
   - toc
 ---
-
-## Flat Data
+## Apresentação
 
 Buscas integradas às bases de dados da ANAC usando Flat Data. 
 
