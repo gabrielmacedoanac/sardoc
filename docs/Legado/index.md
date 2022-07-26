@@ -9,8 +9,6 @@ tags:
   - opensource 
   - knowledgegraph 
   - normas
-hide:
-  - navigation
 ---
 
 ## Plotly
