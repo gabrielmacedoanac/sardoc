@@ -112,19 +112,18 @@ plugins:
 # Padrão do separador de busca: separator: '[\s\-\.]+' substituído por "\s"
 #      separator: '[\s]+'
 # 3 já é o padrão      min_search_length: 3
-#  - charts
-  - git-revision-date
-#  - macros
-#  - mermaid2:
-#      arguments:
-#        securityLevel: 'loose'      
-#        theme: |
-#            ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
-#  - tags:
-#      tags_file: tags.md
+  - charts
+#  - git-revision-date
+  - macros
+  - mermaid2:
+      arguments:
+        securityLevel: 'loose'      
+        theme: |
+            ^(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
+  - tags:
+      tags_file: tags.md
   - minify:
       minify_html: true
-
 
 extra:
   disqus: sardoc
