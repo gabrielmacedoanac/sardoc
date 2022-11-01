@@ -352,6 +352,13 @@ Fonte: _Adaptado de_ MARTINS (2018)[1] - https://repositorio.unb.br/handle/10482
 
 <iframe src="https://glitch.com/embed/#!/embed/wool-fringe-avatar?path=regulamentos.csv&previewSize=100" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
 
+##### Datasette Lite
+
+Carregando mais de uma base de dados: [BASE DE REGULAMENTOS DA ANAC + BASE DE AERONAVES](https://lite.datasette.io/?csv=https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/regulamentos-anac-tags.csv&csv=https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/aeronaves.csv)
+
+> https://lite.datasette.io/?csv=https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/regulamentos-anac-tags.csv&csv=https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/aeronaves.csv
+> Padrão:  `https://lite.datasette.io/` + `?csv=URL&csv=URL`
+
 #### Teste Flatgithub
 
  - **Flatgithub** #flatdata para integração contínua (automatizada)
