@@ -128,6 +128,9 @@ plugins:
 
 extra:
   disqus: sardoc
+  analytics:
+    provider: google
+    property: G-V7P0PR3LM2  
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
