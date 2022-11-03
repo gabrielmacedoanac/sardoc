@@ -98,7 +98,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
         - name: vegalite
           class: vegalite
-          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite  - pymdownx.tabbed:
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite  
+  - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
