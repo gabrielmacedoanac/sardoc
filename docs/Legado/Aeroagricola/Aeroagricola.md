@@ -1260,7 +1260,7 @@ document.getElementById('download').onclick = function () {
 
 ## mkdocs-table-reader-plugin
   
-{{ read_csv('https://raw.githubusercontent.com/gabrielmacedoanac/flat-data-anac/main/regulamentos-anac-tags.csv') }}
+{{ read_csv('regulamentos-anac-tags.csv') }}
 
 ## Importado do KUMU depois do tratamento
 
