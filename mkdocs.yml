@@ -130,7 +130,22 @@ extra:
   disqus: sardoc
   analytics:
     provider: google
-    property: G-V7P0PR3LM2  
+    property: G-V7P0PR3LM2
+    feedback:
+      title: Esta página foi útil?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Essa página está boa!
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: Essa página deve ser melhorada!
+          data: 0
+          note: >- 
+            Obrigado pelo seu feedback! Nos ajude a melhorar essa página
+            usando nosso <a href="..." target="_blank" rel="noopener">formulário de feedback</a>.    
+    
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
