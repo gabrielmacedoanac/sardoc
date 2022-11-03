@@ -138,13 +138,13 @@ extra:
           name: Essa página está boa!
           data: 1
           note: >-
-            Thanks for your feedback!
+            Obrigado pelo seu feedback!
         - icon: material/emoticon-sad-outline
           name: Essa página deve ser melhorada!
           data: 0
           note: >- 
             Obrigado pelo seu feedback! Nos ajude a melhorar essa página
-            usando nosso <a href="..." target="_blank" rel="noopener">formulário de feedback</a>.    
+            preenchendo nosso <a href="..." target="_blank" rel="noopener">formulário de feedback</a>.    
     
 
 extra_javascript:
