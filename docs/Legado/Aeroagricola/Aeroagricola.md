@@ -1259,8 +1259,7 @@ document.getElementById('download').onclick = function () {
 
 
 ## mkdocs-table-reader-plugin
-  
-{{ read_csv('regulamentos-anac-tags.csv') }}
+
 
 ## Importado do KUMU depois do tratamento
 
