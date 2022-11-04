@@ -114,7 +114,6 @@ plugins:
 # 3 já é o padrão      min_search_length: 3
   - git-revision-date
   - charts
-  - table-reader
   - macros
   - mermaid2:
       arguments:
