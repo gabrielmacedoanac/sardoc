@@ -1,0 +1,26 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-1987/portaria-no-1141-gm5-de-08-12-1987/@@display-file/arquivo_norma/portaria1141.pdf
+data: 08/12/1987
+norma: Portaria nº 1141/GM5 de 08/12/1987
+publicacao: DOU Nº 187, S/1, 09/12/1987
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                         |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Dispõe sobre Zonas de Proteção e aprova o Plano Básico de Zona de Proteção de Aeródromos, o Plano Básico de Zoneamento do Ruído, o Plano Básico de Zona de Proteção de Helipontos e o Plano de Zona de Proteção de Auxílios à Navegação Aérea e dá outras providências. Revoga Port Nº 147/DGAC, 11/03/1997. Aplicação do Anexo 14 - Port Nº 398/GM5, 04/06/1999. |
+| norma              | Portaria nº 1141/GM5 de 08/12/1987                                                                                                                                                                                                                                                                                                                                |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                   |
+| alterada           | Port Nº 122/GC5, 01/02/2005; Portaria do Comando da Aeronáutica Nº 1176/GC5, de 23 de dezembro de 2009                                                                                                                                                                                                                                                            |
+| data               | 08/12/1987                                                                                                                                                                                                                                                                                                                                                        |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                   |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                          |
+| publicacao         | DOU Nº 187, S/1, 09/12/1987                                                                                                                                                                                                                                                                                                                                       |
+| revogada           | Portaria COMAER Nº 256/GC5, de 13 de maio de 2011                                                                                                                                                                                                                                                                                                                 |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                   |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-1987/portaria-no-1141-gm5-de-08-12-1987/@@display-file/arquivo_norma/portaria1141.pdf                                                                                                                                                                                                |

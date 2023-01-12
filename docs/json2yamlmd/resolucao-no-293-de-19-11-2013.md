@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/arquivo_norma/RA2013-0293
+  - Compilado até RA2020-0597.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/anexo_norma/
+  CEF Resolução nº 293, de 2013.pdf
+data: 19/11/2013
+norma: Resolução nº 293 de 19/11/2013
+publicacao: DOU Nº 228, S/1, p.5, 25/11/2013
+tags:
+- lei
+tipo_normatico: Resolução
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                     |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Dispõe sobre o Registro Aeronáutico Brasileiro e dá outras providências.                                                                                                                                                                                                                                                                                                      |
+| norma              | Resolução nº 293 de 19/11/2013                                                                                                                                                                                                                                                                                                                                                |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                               |
+| alterada           | Resolução nº 490, de 28.08.2018; Resolução nº 514, de 25.04.2019; Resolução nº 552, de 29.04.2020; e  Resolução nº 597, de 25.11.2020.                                                                                                                                                                                                                                        |
+| data               | 19/11/2013                                                                                                                                                                                                                                                                                                                                                                    |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                               |
+| tipo_normatico     | Resolução                                                                                                                                                                                                                                                                                                                                                                     |
+| publicacao         | DOU Nº 228, S/1, p.5, 25/11/2013                                                                                                                                                                                                                                                                                                                                              |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                               |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                               |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/arquivo_norma/RA2013-0293 - Compilado até RA2020-0597.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-293-de-19-11-2013/@@display-file/anexo_norma/ CEF Resolução nº 293, de 2013.pdf |

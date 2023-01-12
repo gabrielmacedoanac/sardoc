@@ -1,0 +1,26 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2018/portaria-no-0379-spo-05-02-2018/@@display-file/arquivo_norma/PA2018-0379.pdf
+data: 05/02/2018
+norma: PORTARIA Nº 0379/SPO, 05/02/2018
+publicacao: DOU 08/02/2018, Seção 1, pág.176
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                      |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Renova a autorização de funcionamento e a homologação dos cursos teóricos e práticos de Piloto Desportivo de Ultraleve (CPD), Piloto de Recreio de Ultraleve (CPR), Piloto Privado Avião (PPA), Piloto Comercial Avião (PCA), Instrutor de Voo Avião (INVA) e do curso teórico de Voo por Instrumentos (IFR) do Aeroclube Regional de Taubaté. |
+| norma              | PORTARIA Nº 0379/SPO, 05/02/2018                                                                                                                                                                                                                                                                                                               |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                |
+| alterada           |                                                                                                                                                                                                                                                                                                                                                |
+| data               | 05/02/2018                                                                                                                                                                                                                                                                                                                                     |
+| outros             |                                                                                                                                                                                                                                                                                                                                                |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                       |
+| publicacao         | DOU 08/02/2018, Seção 1, pág.176                                                                                                                                                                                                                                                                                                               |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2018/portaria-no-0379-spo-05-02-2018/@@display-file/arquivo_norma/PA2018-0379.pdf                                                                                                                                                                                           |

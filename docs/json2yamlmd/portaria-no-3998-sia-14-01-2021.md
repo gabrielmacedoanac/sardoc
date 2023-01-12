@@ -1,0 +1,27 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2021/portaria-no-3998-sia-14-01-2021/@@display-file/arquivo_norma/PA2021-3998.pdf
+data: 14/01/2021
+norma: PORTARIA Nº 3998/SIA, 14/01/2021
+publicacao: DOU 28/01/2021, Seção 1, pág.59
+tags:
+- altera
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                            |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Renova e altera a inscrição do Heliponto Privado IGESP (SP) no cadastro de aeródromos.                                                               |
+| norma              | PORTARIA Nº 3998/SIA, 14/01/2021                                                                                                                     |
+| tornada_sem_efeito |                                                                                                                                                      |
+| alterada           |                                                                                                                                                      |
+| data               | 14/01/2021                                                                                                                                           |
+| outros             |                                                                                                                                                      |
+| tipo_normatico     | Portaria                                                                                                                                             |
+| publicacao         | DOU 28/01/2021, Seção 1, pág.59                                                                                                                      |
+| revogada           |                                                                                                                                                      |
+| em_vigor           |                                                                                                                                                      |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2021/portaria-no-3998-sia-14-01-2021/@@display-file/arquivo_norma/PA2021-3998.pdf |

@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2014/portaria-no-2149-sre-de-09-11-2014/@@display-file/arquivo_norma/PA2014-2149
+  - Compilado até PA2018-0380.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2014/portaria-no-2149-sre-de-09-11-2014/@@display-file/anexo_norma/CEF
+  Portaria nº 2149-2014.pdf
+data: 11/09/2014
+norma: Portaria nº 2149/SRE de 11/09/2014
+publicacao: DOU 12/09/2014, Seção 1, Pág 6 e BPS v. 9, Nº 37 - 12/09/2014
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                    |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Estabelece os procedimentos de apresentação das informações econômico-financeiras requeridas por organismos internacionais.                                                                                                                                                                                                                                                  |
+| norma              | Portaria nº 2149/SRE de 11/09/2014                                                                                                                                                                                                                                                                                                                                           |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                              |
+| alterada           |                                                                                                                                                                                                                                                                                                                                                                              |
+| data               | 11/09/2014                                                                                                                                                                                                                                                                                                                                                                   |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                              |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                                     |
+| publicacao         | DOU 12/09/2014, Seção 1, Pág 6 e BPS v. 9, Nº 37 - 12/09/2014                                                                                                                                                                                                                                                                                                                |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                              |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                              |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2014/portaria-no-2149-sre-de-09-11-2014/@@display-file/arquivo_norma/PA2014-2149 - Compilado até PA2018-0380.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2014/portaria-no-2149-sre-de-09-11-2014/@@display-file/anexo_norma/CEF Portaria nº 2149-2014.pdf |

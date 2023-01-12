@@ -1,0 +1,26 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2017/portaria-no-4037-spo-05-12-2017/@@display-file/arquivo_norma/PA2017-4037.pdf
+data: 05/12/2017
+norma: PORTARIA Nº 4037/SPO, 05/12/2017
+publicacao: DOU 08/12/2017, Seção 1, pág.259
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                            |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Revoga a autorização de funcionamento e as homologações dos cursos práticos de PPH e PCH da Heligyn Escola de Aviação Civil.                         |
+| norma              | PORTARIA Nº 4037/SPO, 05/12/2017                                                                                                                     |
+| tornada_sem_efeito |                                                                                                                                                      |
+| alterada           |                                                                                                                                                      |
+| data               | 05/12/2017                                                                                                                                           |
+| outros             |                                                                                                                                                      |
+| tipo_normatico     | Portaria                                                                                                                                             |
+| publicacao         | DOU 08/12/2017, Seção 1, pág.259                                                                                                                     |
+| revogada           |                                                                                                                                                      |
+| em_vigor           |                                                                                                                                                      |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2017/portaria-no-4037-spo-05-12-2017/@@display-file/arquivo_norma/PA2017-4037.pdf |

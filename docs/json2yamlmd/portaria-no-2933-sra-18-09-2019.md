@@ -1,0 +1,27 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2019/portaria-no-2933-sra-18-09-2019/@@display-file/arquivo_norma/PA2019-2933
+  - Compilado até PA2021-6321.pdf
+data: 18/09/2019
+norma: PORTARIA Nº 2933/SRA, 18/09/2019
+publicacao: DOU 23/09/2019, Seção 1, pág. 56 e 57
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                            |
+|:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Aprova os procedimentos para a apresentação das informações contábeis a serem apresentadas pelos administradores de aeroportos de movimentação relevante, de aeroportos sujeitos ao regime de Concessão Pública Federal e de aeroportos sujeitos à regulação tarifária do tipo Receita-Teto por Passageiro, previstas pela Resolução nº 522, de 18 de julho de 2019. |
+| norma              | PORTARIA Nº 2933/SRA, 18/09/2019                                                                                                                                                                                                                                                                                                                                     |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                      |
+| alterada           | Portaria nº 6.321/SRA, de 05.11.2021.                                                                                                                                                                                                                                                                                                                                |
+| data               | 18/09/2019                                                                                                                                                                                                                                                                                                                                                           |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                      |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                             |
+| publicacao         | DOU 23/09/2019, Seção 1, pág. 56 e 57                                                                                                                                                                                                                                                                                                                                |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                      |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                      |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2019/portaria-no-2933-sra-18-09-2019/@@display-file/arquivo_norma/PA2019-2933 - Compilado até PA2021-6321.pdf                                                                                                                                                                                     |

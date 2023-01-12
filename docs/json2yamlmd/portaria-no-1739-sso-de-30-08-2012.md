@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2012/portaria-no-1739-sso-de-30-08-2012/@@display-file/arquivo_norma/PA2012-1739.pdf
+data: 30/08/2012
+norma: Portaria nº 1739/SSO de 30/08/2012
+publicacao: DOU Nº 170, S/1, p.23  31/08/2012
+tags:
+- '00068.003016'
+- decisão
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                          |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Ratifica a emissão do Certificado de Operador Aéreo (COA) Nº 2012-08-5IFA-03-00, emitido em 28 de agosto de 2012, em favor de AERO AGRÍCOLA SÃO BORJA LTDA., determinada nos termos da decisão proferida no processo administrativo n.º 00068.003016/2012-31, e comunicada à interessada em 28 de agosto de 2012 por meio do Ofício n.º 441/2012/GVAG-PA/SSO/UR/PORTO ALEGRE-ANAC. |
+| norma              | Portaria nº 1739/SSO de 30/08/2012                                                                                                                                                                                                                                                                                                                                                 |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                                    |
+| alterada           |                                                                                                                                                                                                                                                                                                                                                                                    |
+| data               | 30/08/2012                                                                                                                                                                                                                                                                                                                                                                         |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                                    |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                                           |
+| publicacao         | DOU Nº 170, S/1, p.23  31/08/2012                                                                                                                                                                                                                                                                                                                                                  |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                                    |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                                    |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2012/portaria-no-1739-sso-de-30-08-2012/@@display-file/arquivo_norma/PA2012-1739.pdf                                                                                                                                                                                                                  |

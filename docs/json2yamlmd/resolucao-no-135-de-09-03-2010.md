@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2010/resolucao-no-135-de-09-03-2010/@@display-file/arquivo_norma/A2010-0135
+  com anexo.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2010/resolucao-no-135-de-09-03-2010/@@display-file/anexo_norma/Programa
+  de Avaliacao Dimensional - Selo ANAC (1).pdf
+data: 01/01/2012
+norma: Resolução nº 135 de 09/03/2010
+publicacao: DOU Nº 47, S/1, p. 4-5, 11/03/2010
+tags:
+- ''
+tipo_normatico: Resolução
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                     |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Institui o Programa de Avaliação Dimensional – Selo ANAC.                                                                                                                                                                                                                                                                                                                     |
+| norma              | Resolução nº 135 de 09/03/2010                                                                                                                                                                                                                                                                                                                                                |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                               |
+| alterada           |                                                                                                                                                                                                                                                                                                                                                                               |
+| data               | 01/01/2012                                                                                                                                                                                                                                                                                                                                                                    |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                               |
+| tipo_normatico     | Resolução                                                                                                                                                                                                                                                                                                                                                                     |
+| publicacao         | DOU Nº 47, S/1, p. 4-5, 11/03/2010                                                                                                                                                                                                                                                                                                                                            |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                               |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                               |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2010/resolucao-no-135-de-09-03-2010/@@display-file/arquivo_norma/A2010-0135 com anexo.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2010/resolucao-no-135-de-09-03-2010/@@display-file/anexo_norma/Programa de Avaliacao Dimensional - Selo ANAC (1).pdf |

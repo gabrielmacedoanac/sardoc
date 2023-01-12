@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-279-de-10-07-2013/@@display-file/arquivo_norma/RA2013-0279
+  - Compilado até RA2019-0517.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-279-de-10-07-2013/@@display-file/anexo_norma/CEF
+  Resolução nº 279, de 2013.pdf
+data: 10/07/2013
+norma: Resolução nº 279 de 10/07/2013
+publicacao: DOU Nº 135, S/1, p.11, 16/07/2013
+tags:
+- ''
+tipo_normatico: Resolução
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                    |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Estabelece critérios regulatórios quanto à implantação, operação e manutenção do Serviço de Prevenção, Salvamento e Combate a Incêndio em Aeródromos Civis (SESCINC).                                                                                                                                                                                                        |
+| norma              | Resolução nº 279 de 10/07/2013                                                                                                                                                                                                                                                                                                                                               |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                              |
+| alterada           | Resolução nº 382, de 14.06.2016; Resolução nº 455, de 20.12.2017; Resolução nº 517, de 14.05.2019                                                                                                                                                                                                                                                                            |
+| data               | 10/07/2013                                                                                                                                                                                                                                                                                                                                                                   |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                              |
+| tipo_normatico     | Resolução                                                                                                                                                                                                                                                                                                                                                                    |
+| publicacao         | DOU Nº 135, S/1, p.11, 16/07/2013                                                                                                                                                                                                                                                                                                                                            |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                              |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                              |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-279-de-10-07-2013/@@display-file/arquivo_norma/RA2013-0279 - Compilado até RA2019-0517.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-279-de-10-07-2013/@@display-file/anexo_norma/CEF Resolução nº 279, de 2013.pdf |

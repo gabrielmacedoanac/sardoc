@@ -1,0 +1,30 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2012/portaria-no-0093-sac-de-07-06-2012/@@display-file/arquivo_norma/PS2012-0093.pdf
+data: 07/06/2012
+norma: Portaria nº 0093/SAC de 07/06/2012
+publicacao: DOU Nº 131, S/1, p.4 09/07/2012
+tags:
+- '11.488'
+- '6.144'
+- decreto
+- lei
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:-------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Estabelece o procedimento de aprovação dos projetos de implantação de obras de infraestrutura nos sistemas aeroportuários e de proteção ao voo, instalados em aeródromos públicos, para fins de habilitação ao Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura (REIDI), instituído pela Lei Nº 11.488, de 15 de junho de 2007, e regulamentado pelo Decreto Nº 6.144, de 3 de julho de 2007. |
+| norma              | Portaria nº 0093/SAC de 07/06/2012                                                                                                                                                                                                                                                                                                                                                                                  |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| alterada           |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| data               | 07/06/2012                                                                                                                                                                                                                                                                                                                                                                                                          |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                                                                            |
+| publicacao         | DOU Nº 131, S/1, p.4 09/07/2012                                                                                                                                                                                                                                                                                                                                                                                     |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2012/portaria-no-0093-sac-de-07-06-2012/@@display-file/arquivo_norma/PS2012-0093.pdf                                                                                                                                                                                                                                                   |

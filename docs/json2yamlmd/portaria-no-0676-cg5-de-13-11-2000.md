@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2000/portaria-no-0676-cg5-de-13-11-2000/@@display-file/arquivo_norma/PGC5-2000-676consolid
+  Res 34-138-140-141.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2000/portaria-no-0676-cg5-de-13-11-2000/@@display-file/anexo_norma/PA2016-3770
+  - CEF Portaria nº 676.pdf
+data: 13/11/2000
+norma: Portaria nº 0676/CG5 de 13/11/2000
+publicacao: DOU Nº 219E, S/1, p. 10-12, 14/11/2000
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                             |
+|:-------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Aprova as Condições Gerais de Transporte.                                                                                                                                                                                                                                                                                                                                             |
+| norma              | Portaria nº 0676/CG5 de 13/11/2000                                                                                                                                                                                                                                                                                                                                                    |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                                       |
+| alterada           | Portaria nº 689/GC5 de 22/06/2005; Resolução nº 34, de 27/06/2008; Resolução nº 140, de 09/03/2010, em vigor desde 01/07/2010; e Resolução nº 141, de 09/03/2010, em vigor desde 13/06/2010.                                                                                                                                                                                          |
+| data               | 13/11/2000                                                                                                                                                                                                                                                                                                                                                                            |
+| outros             |                                                                                                                                                                                                                                                                                                                                                                                       |
+| tipo_normatico     | Portaria                                                                                                                                                                                                                                                                                                                                                                              |
+| publicacao         | DOU Nº 219E, S/1, p. 10-12, 14/11/2000                                                                                                                                                                                                                                                                                                                                                |
+| revogada           | Revogada pela Portaria nº 180/GC3, de 26 janeiro de 2017.                                                                                                                                                                                                                                                                                                                             |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                                       |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2000/portaria-no-0676-cg5-de-13-11-2000/@@display-file/arquivo_norma/PGC5-2000-676consolid Res 34-138-140-141.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/portarias-2000/portaria-no-0676-cg5-de-13-11-2000/@@display-file/anexo_norma/PA2016-3770 - CEF Portaria nº 676.pdf |

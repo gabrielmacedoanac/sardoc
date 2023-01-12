@@ -1,0 +1,26 @@
+---
+anexos: ''
+data: 30/06/2022
+norma: PORTARIA Nº 8452/SPO, 30/06/2022
+publicacao: DOU 05/07/2022, Seção 1, pág.197
+tags:
+- portaria
+tipo_normatico: Portaria
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                              |
+|:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Torna público o cumprimento dos requisitos para a exploração de serviços aéreos - Aero Gralha Azul Serviços Aéreos Especializados Ltda |
+| norma              | PORTARIA Nº 8452/SPO, 30/06/2022                                                                                                       |
+| tornada_sem_efeito |                                                                                                                                        |
+| alterada           |                                                                                                                                        |
+| data               | 30/06/2022                                                                                                                             |
+| outros             |                                                                                                                                        |
+| tipo_normatico     | Portaria                                                                                                                               |
+| publicacao         | DOU 05/07/2022, Seção 1, pág.197                                                                                                       |
+| revogada           |                                                                                                                                        |
+| em_vigor           |                                                                                                                                        |
+| anexos             |                                                                                                                                        |

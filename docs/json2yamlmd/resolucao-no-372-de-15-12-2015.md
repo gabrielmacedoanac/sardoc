@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2015/resolucao-no-372-de-15-12-2015/@@display-file/arquivo_norma/RA2015-0372
+  - Compilada até RA2019-0534.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2015/resolucao-no-372-de-15-12-2015/@@display-file/anexo_norma/CEF
+  Resolução nº 372-2015.pdf
+data: 15/12/2015
+norma: Resolução nº 372 de 15/12/2015
+publicacao: DOU 17/12/2015, Seção 1, pag.6
+tags:
+- ''
+tipo_normatico: Resolução
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Dispõe sobre as regras para a aferição, a fiscalização e a apresentação dos resultados dos Indicadores de Qualidade de Serviço - IQS, do Plano de Qualidade de Serviços - PQS e do Relatório de Qualidade de Serviço - RQS pelas Concessionárias de Serviço Público de Infraestrutura Aeroportuária.                                                                     |
+| norma              | Resolução nº 372 de 15/12/2015                                                                                                                                                                                                                                                                                                                                           |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                          |
+| alterada           | Resolução nº 453, de 20/12/2017                                                                                                                                                                                                                                                                                                                                          |
+| data               | 15/12/2015                                                                                                                                                                                                                                                                                                                                                               |
+| outros             | Ver também – Portaria nº 3.399/SRA, de 22 de dezembro de 2015.                                                                                                                                                                                                                                                                                                           |
+| tipo_normatico     | Resolução                                                                                                                                                                                                                                                                                                                                                                |
+| publicacao         | DOU 17/12/2015, Seção 1, pag.6                                                                                                                                                                                                                                                                                                                                           |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                          |
+| em_vigor           |                                                                                                                                                                                                                                                                                                                                                                          |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2015/resolucao-no-372-de-15-12-2015/@@display-file/arquivo_norma/RA2015-0372 - Compilada até RA2019-0534.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2015/resolucao-no-372-de-15-12-2015/@@display-file/anexo_norma/CEF Resolução nº 372-2015.pdf |

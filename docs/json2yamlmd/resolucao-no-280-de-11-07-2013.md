@@ -1,0 +1,28 @@
+---
+anexos: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-280-de-11-07-2013/@@display-file/arquivo_norma/RA2013-0280
+  - Compilado até RA2021-0608.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-280-de-11-07-2013/@@display-file/anexo_norma/CEF
+  Resolução nº 280, de 2013.pdf
+data: 11/07/2013
+norma: Resolução nº 280 de 11/07/2013
+publicacao: DOU Nº 135, S/1, p.11, 16/07/2013
+tags:
+- ''
+tipo_normatico: Resolução
+hide: 
+- toc 
+ 
+---
+
+|                    | Documento                                                                                                                                                                                                                                                                                                                                                                              |
+|:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ementa             | Dispõe sobre os procedimentos relativos à acessibilidade de passageiros com necessidade de assistência especial ao transporte aéreo e dá outras providências.                                                                                                                                                                                                                          |
+| norma              | Resolução nº 280 de 11/07/2013                                                                                                                                                                                                                                                                                                                                                         |
+| tornada_sem_efeito |                                                                                                                                                                                                                                                                                                                                                                                        |
+| alterada           | Resolução nº 608, de 11.02.2021                                                                                                                                                                                                                                                                                                                                                        |
+| data               | 11/07/2013                                                                                                                                                                                                                                                                                                                                                                             |
+| outros             | <a class="external-link" href="https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2019/portaria-no-0764-sia-11-03-2019" target="_blank" title="">Ver também - Portaria nº 764/SAS, de 2019, que dispõe sobre o uso do sistema de solução alternativa de conflitos Consumidor.gov.br pelos transportadores sujeitos às Resoluções nºs 280, de 2013, e 400, de 2016.</a> |
+| tipo_normatico     | Resolução                                                                                                                                                                                                                                                                                                                                                                              |
+| publicacao         | DOU Nº 135, S/1, p.11, 16/07/2013                                                                                                                                                                                                                                                                                                                                                      |
+| revogada           |                                                                                                                                                                                                                                                                                                                                                                                        |
+| em_vigor           | Em vigor em 12 de janeiro de 2014                                                                                                                                                                                                                                                                                                                                                      |
+| anexos             | https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-280-de-11-07-2013/@@display-file/arquivo_norma/RA2013-0280 - Compilado até RA2021-0608.pdf, https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/resolucoes-2013/resolucao-no-280-de-11-07-2013/@@display-file/anexo_norma/CEF Resolução nº 280, de 2013.pdf           |
