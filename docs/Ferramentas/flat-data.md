@@ -16,7 +16,7 @@ Buscas integradas às bases de dados da ANAC usando Flat Data.
 - [_Flat Data_  - tela cheia](https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv)
 - [_Flat Data_ - instruções](#instrucoes)
 
-<iframe title="Flatgithub ANAC - #flatdata" src="https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos.tsv" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
+<iframe title="Flatgithub ANAC - #flatdata" src="https://flatgithub.com/gabrielmacedoanac/flat-data-anac?filename=regulamentos-anac-tags.tsv" width="100%" class="wide max-h-[35rem]" style="height: 90vh;"></iframe>
 
 Buscas integradas às bases de dados abertos da ANAC usando Flat Data. Bases atualizadas de segunda a sexta, entre 05h e 08h da manhã. 
 
