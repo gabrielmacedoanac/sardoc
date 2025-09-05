@@ -126,8 +126,52 @@ plugins:
   - minify:
       minify_html: true
   - copy-to-llm:
-      button_hover_color: "(prefers-color-scheme: light)"
-      toast_bg_color: "(prefers-color-scheme: dark)"
+      # ===== COLOR CUSTOMIZATION =====
+      # All color options accept: hex (#RRGGBB), rgb(), rgba(), CSS color names, or CSS variables
+
+      # Button background color (default: uses theme default)
+      # Using a subtle blue-gray for a modern look
+      button_bg_color: "#eceff1"
+
+      # Button hover color (default: uses theme default)
+      # Light blue on hover for nice interaction feedback
+      button_hover_color: "#bbdefb"
+
+      # Toast notification background color
+      # Using Material Design green for success feedback
+      toast_bg_color: "#4caf50"
+
+      # Toast notification text color
+      toast_text_color: "#ffffff"
+
+      # ===== PERFORMANCE OPTIONS =====
+      # Enable minification of JavaScript and CSS assets
+      # Automatically disabled during development (mkdocs serve)
+      # Requires: pip install jsmin csscompressor
+      # minify: true
+
+      # ===== ANALYTICS CONFIGURATION =====
+      # Enable analytics event tracking (requires Google Analytics or Plausible)
+      # When enabled, tracks: copy_to_llm events with categories:
+      # - code_block: Code snippet copied
+      # - page_content: Full page copied
+      # - markdown_content: Markdown view opened
+      # - markdown_link: Markdown link copied
+      analytics: false
+
+      # ===== BUTTON VISIBILITY CONFIGURATION =====
+      # Control which buttons appear in the copy menu
+      buttons:
+        # Show "Copy Page" button - copies entire page as markdown
+        copy_page: true
+        # Show "Copy Markdown Link" button - copies [title](url) format
+        copy_markdown_link: true
+        # Show "View as Markdown" button - opens markdown in new window
+        view_as_markdown: true
+        # Show "Open in ChatGPT" button - opens content in ChatGPT
+        open_in_chatgpt: true
+        # Show "Open in Claude" button - opens content in Claude
+        open_in_claude: true
 
 
 extra:
