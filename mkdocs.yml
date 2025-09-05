@@ -126,6 +126,7 @@ plugins:
   - minify:
       minify_html: true
   - copy-to-llm:
+      repo_url: "https://raw.githubusercontent.com/gabrielmacedoanac/sardoc/refs/heads/main"
       # ===== COLOR CUSTOMIZATION =====
       # All color options accept: hex (#RRGGBB), rgb(), rgba(), CSS color names, or CSS variables
 
@@ -148,7 +149,7 @@ plugins:
       # Enable minification of JavaScript and CSS assets
       # Automatically disabled during development (mkdocs serve)
       # Requires: pip install jsmin csscompressor
-      # minify: true
+      minify: true
 
       # ===== ANALYTICS CONFIGURATION =====
       # Enable analytics event tracking (requires Google Analytics or Plausible)
