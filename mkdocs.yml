@@ -125,6 +125,9 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
+  - copy-to-llm:
+      button_hover_color: "var(--md-primary-fg-color)"
+      toast_bg_color: "var(--md-primary-fg-color)"
 
 
 extra:
