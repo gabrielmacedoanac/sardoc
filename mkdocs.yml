@@ -126,7 +126,7 @@ plugins:
   - minify:
       minify_html: true
   - copy-to-llm:
-      repo_url: "https://raw.githubusercontent.com/gabrielmacedoanac/sardoc/refs/heads/main/"
+      repo_url: "https://raw.githubusercontent.com/gabrielmacedoanac/sardoc/refs/heads/main/docs"
       button_bg_color: "#eceff1"
       button_hover_color: "#bbdefb"
       toast_bg_color: "#4caf50"
